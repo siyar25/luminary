@@ -9,6 +9,9 @@
     font-weight: bold;
     font-size: large;
     color: var(--white);
+    position: absolute;
+    top: 0;
+    z-index: 5;
 }
 
 .nav-elements {

@@ -1,0 +1,42 @@
+.coming-movies-container {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 8% 8%;
+}
+
+.coming-movies-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.coming-movies-section>.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subtitle-text {
+    text-transform: uppercase;
+    font-size: larger;
+    position: relative;
+}
+
+.subtitle-text:before {
+    content: '';
+    position: absolute;
+    background-color: var(--vivid-gold);
+    left: 50%;
+    top: -20px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.section-line {
+    background: linear-gradient(0.25turn, var(--vivid-gold), transparent);
+    height: 1px;
+}

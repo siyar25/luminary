@@ -18,11 +18,10 @@ export default function MainScreen() {
   return (
     <div className="container">
       <TrailerModal />
-      <NavBar />
+
       <img alt="movie-poster" src={movieBG} className="mainscreen-bg" />
       <div className="movie-container">
         <div className="left-side">
-          {/* <div className="movie-title">Venom</div> */}
           <img className="movie-title-logo" src={venomLogo} />
           <div className="booking">
             <div className="book-now-btn">Book Now</div>
