@@ -13,16 +13,21 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 10%;
-  margin-top: 18%;
+  margin: 0 6%;
+  margin-top: 15%;
 }
 
-.movie-title {
-  font-size: 5rem;
-  font-family: Work Sans;
-  font-weight: bold;
-  color: var(--white);
-  margin-bottom: 25%;
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: left;
+
+}
+
+.movie-title-logo {
+    width: 400px;
+    /* margin-bottom: 15%; */
 }
 
 .booking {
@@ -30,7 +35,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 25%;
+  /* margin-bottom: 15%; */
 }
 
 .book-now-btn {
@@ -42,6 +47,15 @@
     font-size: large;
     font-weight: bold;
     margin-right: 1.5rem;
+    cursor: pointer;
+    transition: all 250ms;
+    border: solid 3px var(--vivid-gold);
+}
+
+.book-now-btn:hover {
+    background-color: var(--black);
+    color: var(--vivid-gold);
+    transition: all 250ms;
 }
 
 .book-now-info {
@@ -68,23 +82,26 @@
 }
 
 .social-app {
-    background-color: var(--gray);
+    filter:invert(1) brightness(50%);
     height: 35px;
     width: 35px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: large;
-    padding: 3px;
     margin-right: 1rem;
-    line-height: 35px;
-    font-weight: bold;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.social-app:hover {
+    transition: 250ms;
+    filter: invert(1) brightness(100%);
 }
 
 .right-side {
     margin-right: 5%;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40%;
 }
 
 .play-button {
@@ -97,7 +114,6 @@
     height: 75px;
     line-height: 75px;
     text-align: center;
-    margin-bottom: 10%;
     cursor: pointer;
     transition: 250ms;
     position: relative;
@@ -116,14 +132,57 @@
 .trailer-btn {
     font-size: large;
     color: var(--white);
-    margin-bottom: 30%;
+}
+
+.play-trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 .pagination {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 0.5rem;
     color: var(--white);
     letter-spacing: 5px;
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
     font-family: Work Sans;
     font-weight: lighter;
+    padding-left: 0;
+}
+
+.page {
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.page:hover {
+    transition: 250ms;
+    transform: translateY(-5px);
+}
+
+.arrow {
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.arrow:hover {
+    transition: 250ms;
+    color: var(--pale-yellow);
+}
+
+.page.active {
+    font-size: 4rem;
+    color: var(--vivid-gold);
+}
+
+.page.active {
+    transform: none;
 }
