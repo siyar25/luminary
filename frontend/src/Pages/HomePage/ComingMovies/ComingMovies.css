@@ -105,3 +105,12 @@
   color: var(--vivid-gold);
   transform: scale(103%);
 }
+
+.coming-movies-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}

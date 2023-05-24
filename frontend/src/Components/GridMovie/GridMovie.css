@@ -1,0 +1,48 @@
+.grid-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 5rem;
+  font-family: Work Sans;
+  cursor: pointer;
+  transition: 250ms;
+  border-radius: 0.5rem;
+  filter: none;
+
+}
+
+.grid-movie:hover {
+  transition: 250ms;
+  transform: scale(105%);
+  filter: brightness(125%);
+}
+
+.movie-poster {
+  /* height: 270px; */
+  width: 220px;
+  aspect-ratio: 0.75;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.movie-title {
+  align-self: flex-start;
+  font-size: large;
+  font-weight: 500;
+}
+
+.movie-info {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+  color: gray;
+  font-size: small;
+}
+
+.movie-genres {
+  text-transform: uppercase;
+}

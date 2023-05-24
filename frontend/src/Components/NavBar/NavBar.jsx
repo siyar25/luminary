@@ -1,4 +1,3 @@
-import React from 'react'
 import "./NavBar.css"
 import Logo from '../../assets/luminary_nobg.png'
 import searchIcon from '../../assets/search-icon.png'
