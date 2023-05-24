@@ -1,42 +1,107 @@
 .coming-movies-container {
-    display: flex;
-    flex-direction: column;
-    color: var(--white);
-    background-color: var(--black);
-    padding: 8% 8%;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 3% 8%;
 }
 
 .coming-movies-section {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.coming-movies-section>.subtitle {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.coming-movies-section > .subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .subtitle-text {
-    text-transform: uppercase;
-    font-size: larger;
-    position: relative;
+  text-transform: uppercase;
+  font-size: larger;
+  position: relative;
+  font-weight: 600;
 }
 
 .subtitle-text:before {
-    content: '';
-    position: absolute;
-    background-color: var(--vivid-gold);
-    left: 50%;
-    top: -20px;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
+  content: "";
+  position: absolute;
+  background-color: var(--vivid-gold);
+  left: 50%;
+  top: -20px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
 }
 
 .section-line {
-    background: linear-gradient(0.25turn, var(--vivid-gold), transparent);
-    height: 1px;
+  background: linear-gradient(0.25turn, var(--vivid-gold), transparent);
+  height: 1px;
+}
+
+.opening-week-search {
+  width: 30%;
+  height: 2.5rem;
+  background-color: transparent;
+  border: 1px solid var(--gray);
+  border-radius: 0.25rem;
+  color: var(--gray);
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  position: relative;
+}
+
+.opening-week-search:focus {
+  outline: 2px solid var(--vivid-gold);
+  background-color: rgb(40, 40, 40);
+}
+
+/* .opening-week-search::-webkit-search-cancel-button {
+    -webkit-appearance: red;
+} */
+
+/* .opening-week-search::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: var(--vivid-gold);
+} */
+
+.coming-movies-types {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 0;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.movie-type {
+  background-color: var(--vivid-gold);
+  width: 10%;
+  padding: 0.7rem 0.75rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  color: var(--black);
+  font-family: Work Sans;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 250ms;
+  border: 2px solid var(--vivid-gold);
+}
+
+.movie-type:hover {
+  transition: 250ms;
+  background-color: var(--black);
+  color: var(--vivid-gold);
+  transform: scale(103%);
 }

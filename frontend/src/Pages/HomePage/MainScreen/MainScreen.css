@@ -41,7 +41,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  /* margin-bottom: 15%; */
+  margin-bottom: 20%;
 }
 
 .book-now-btn {
@@ -55,7 +55,7 @@
     margin-right: 1.5rem;
     cursor: pointer;
     transition: all 250ms;
-    border: solid 3px var(--vivid-gold);
+    border: solid 2px var(--vivid-gold);
 }
 
 .book-now-btn:hover {
