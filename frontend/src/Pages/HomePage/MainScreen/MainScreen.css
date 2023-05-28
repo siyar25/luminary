@@ -6,6 +6,7 @@
   object-position: center;
   left: 0;
   top: 0;
+  box-shadow: -5px 25px 25px black;
 }
 
 .container {
