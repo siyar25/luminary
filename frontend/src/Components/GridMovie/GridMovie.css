@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   cursor: pointer;
   transition: 250ms;
   border-radius: 0.5rem;
@@ -19,7 +19,7 @@
 }
 
 .grid-movie::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -38,8 +38,6 @@
   opacity: 100%;
 }
 
-
-
 .movie-poster {
   /* height: 270px; */
   width: 220px;
@@ -47,6 +45,31 @@
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
   object-fit: cover;
+}
+
+.movie-poster-container {
+  position: relative;
+}
+
+.movie-poster-infos {
+  position: absolute;
+  right: 0;
+  top: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  align-items: center;
+  color: var(--black);
+}
+
+.movie-poster-info {
+  background-color: var(--vivid-gold);
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.movie-poster-info.date {
+  padding: 0.5rem 1rem;
 }
 
 .movie-title {

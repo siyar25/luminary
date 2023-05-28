@@ -11,9 +11,8 @@ export default function NavBar() {
       <ul className="nav-elements">
         <li className="nav-element nav-point">Home</li>
         <li className="nav-element nav-point">Schedule</li>
-        <li className="nav-element nav-point">Movies</li>
         <li className="nav-element nav-point">News</li>
-        <img className="nav-element search-icon" alt='search' src={searchIcon} title='Search for movies'/>
+        <li className="nav-element nav-point">About Us</li>
         <li className="nav-element" id='sign-in-btn'>Sign In</li>
       </ul>
     </nav>
