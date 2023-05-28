@@ -9,7 +9,8 @@
   transition: 250ms;
   border-radius: 0.5rem;
   filter: none;
-
+  position: relative;
+  z-index: 10;
 }
 
 .grid-movie:hover {
@@ -17,6 +18,28 @@
   transform: scale(105%);
   filter: brightness(125%);
 }
+
+.grid-movie::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: scaleY(105%) scaleX(110%);
+  background-color: rgba(255, 255, 255, 0.05);
+  z-index: -1;
+  border-radius: 0.5rem;
+  transition: 250ms;
+  opacity: 0;
+}
+
+.grid-movie:hover::before {
+  transition: 250ms;
+  opacity: 100%;
+}
+
+
 
 .movie-poster {
   /* height: 270px; */

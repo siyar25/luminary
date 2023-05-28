@@ -1,9 +1,10 @@
-.coming-movies-container {
+.movies-container {
   display: flex;
   flex-direction: column;
   color: var(--white);
   background-color: var(--black);
   padding: 3% 8%;
+  gap: 3rem;
 }
 
 .coming-movies-section {
