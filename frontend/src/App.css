@@ -1,11 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@300;400;700&display=swap');
 
 :root {
-    --black: #111111;
-    --white: #ffffff;
-    --gray: #e6e6e6;
-    --pale-yellow: #fff3bd;
-    --warm-gold: #ffe98a;
-    --vivid-gold: #ffdf57;
-    font-family: Lato;
+  --black: #111111;
+  --white: #ffffff;
+  --gray: #e6e6e6;
+  --pale-yellow: #fff3bd;
+  --warm-gold: #ffe98a;
+  --vivid-gold: #ffdf57;
+  font-family: 'Lato', sans-serif;
 }

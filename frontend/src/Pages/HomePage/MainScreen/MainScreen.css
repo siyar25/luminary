@@ -1,6 +1,6 @@
 .mainscreen-bg {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -10,17 +10,23 @@
 
 .container {
     background-color: var(--black);
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .movie-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 6%;
-  margin-top: 15%;
-  padding-bottom: 15%;
+  /* margin: 0 6%; */
+  /* margin-top: 15%; */
   z-index: 1;
-  position: relative;
+  position: absolute;
+  bottom: 6%;
+  width: 90%;
 }
 
 .left-side {
@@ -33,7 +39,6 @@
 
 .movie-title-logo {
     width: 400px;
-    /* margin-bottom: 15%; */
 }
 
 .booking {
@@ -102,11 +107,10 @@
 }
 
 .right-side {
-    margin-right: 5%;
-    margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     gap: 40%;
 }
 
@@ -159,7 +163,7 @@
     letter-spacing: 5px;
     font-size: 3rem;
     cursor: pointer;
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif;
     font-weight: lighter;
     padding-left: 0;
 }
