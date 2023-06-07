@@ -1,4 +1,3 @@
-import React from "react";
 import "./TrailerModal.css";
 
 export default function TrailerModal({ movie }) {

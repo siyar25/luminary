@@ -1,11 +1,34 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@300;400;700&display=swap');
 
 :root {
-    --black: #111111;
-    --white: #ffffff;
-    --gray: #e6e6e6;
-    --pale-yellow: #fff3bd;
-    --warm-gold: #ffe98a;
-    --vivid-gold: #ffdf57;
-    font-family: Lato;
+  --black: #111111;
+  --white: #ffffff;
+  --gray: #e6e6e6;
+  --pale-yellow: #fff3bd;
+  --warm-gold: #ffe98a;
+  --vivid-gold: #ffdf57;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+a:link, a:visited, a:active  {
+  color: var(--white);
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--black);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--vivid-gold);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--pale-yellow);
 }
