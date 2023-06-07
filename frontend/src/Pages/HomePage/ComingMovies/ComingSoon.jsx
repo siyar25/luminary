@@ -65,20 +65,6 @@ export default function ComingSoon() {
           posterSrc={movieBG}
           releaseDate="2024 February 5."
         />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2024 February 5."
-        />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2024 February 5."
-        />
       </div>
     </section>
   );
