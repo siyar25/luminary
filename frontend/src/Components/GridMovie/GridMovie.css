@@ -39,12 +39,15 @@
 }
 
 .movie-poster {
-  /* height: 270px; */
   width: 220px;
   aspect-ratio: 0.75;
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
   object-fit: cover;
+  -webkit-backface-visibility: hidden; 
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .movie-poster-container {
