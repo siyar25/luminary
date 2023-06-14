@@ -28,6 +28,8 @@ export default function SchedulePage() {
           <li className="movie-type">IMAX 3D</li>
         </ul>
         <div className="schedule-list">
+          <ScheduleMovie/>
+          <div className="section-line"></div>
           <ScheduleMovie />
         </div>
       </div>
