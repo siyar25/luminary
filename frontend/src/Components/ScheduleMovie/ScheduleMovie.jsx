@@ -24,7 +24,7 @@ export default function ScheduleMovie() {
             <div className="movie-top-info-title">
               Venom <span>13+</span>
             </div>
-            <div className="movie-top-info-imdb">IMDB 6.6</div>
+            <div className="movie-top-info-imdb">IMDb 6.6</div>
           </div>
           <div className="movie-info">
             <div className="movie-duration">120 min</div>
@@ -49,12 +49,16 @@ export default function ScheduleMovie() {
       </div>
       <div className="movie-bottom">
         <div className="movie-bottom-row">
-          <div className="movie-bottom-type">2D</div>
+          <div className="movie-bottom-type" style={{marginRight:`17%`}}>2D</div>
           <div className="movie-bottom-screening">12:00</div>
         </div>
         <div className="movie-bottom-row">
-          <div className="movie-bottom-type">3D</div>
+          <div className="movie-bottom-type" style={{marginRight:`35%`}}>3D</div>
           <div className="movie-bottom-screening">15:00</div>
+        </div>
+        <div className="movie-bottom-row">
+          <div className="movie-bottom-type" style={{marginRight:`75%`}}>IMAX 3D</div>
+          <div className="movie-bottom-screening">21:00</div>
         </div>
       </div>
     </div>

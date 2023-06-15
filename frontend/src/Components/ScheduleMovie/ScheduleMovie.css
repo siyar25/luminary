@@ -12,6 +12,10 @@
   gap: 4rem;
 }
 
+.movie-poster {
+  cursor: pointer;
+}
+
 .movie-top-info {
   display: flex;
   flex-direction: column;
@@ -54,7 +58,6 @@
 }
 
 .movie-bottom-type {
-  margin-right: 16%;
   font-size: x-large;
 }
 
@@ -73,7 +76,7 @@
   transition: 250ms;
   background-color: var(--black);
   color: var(--vivid-gold);
-  border: 1px solid var(--white);
+  border: 1px solid var(--vivid-gold);
 }
 
 .movie-bottom-row:nth-child(odd) {
@@ -102,8 +105,14 @@
     /* border-bottom: 1px solid white; */ 
 }
 
-.schedule-list {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+.movie-top-info-imdb {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background: linear-gradient(to right, #f3ce13, #f2e084, #f3ce13);
+  color: rgb(12,11,0);
+  font-weight: 600;
+  font-size: medium;
+  text-transform: none;
+  font-family: Impact, sans-serif;
+  letter-spacing: 0.4px;
 }

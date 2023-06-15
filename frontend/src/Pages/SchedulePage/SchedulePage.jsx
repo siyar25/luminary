@@ -12,7 +12,7 @@ export default function SchedulePage() {
       />
 
         <div className="subtitle">
-          <div className="subtitle-text">Schedule</div>
+          <div className="subtitle-text" style={{fontSize:"x-large"}}>Schedule</div>
           <input
             className="opening-week-search"
             type="search"
@@ -29,7 +29,9 @@ export default function SchedulePage() {
         </ul>
         <div className="schedule-list">
           <ScheduleMovie/>
-          <div className="section-line"></div>
+          <div className="section-line" />
+          <ScheduleMovie />
+          <div className="section-line" />
           <ScheduleMovie />
         </div>
       </div>
