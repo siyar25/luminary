@@ -7,7 +7,6 @@
   cursor: pointer;
   transition: 250ms;
   border-radius: 0.5rem;
-  filter: none;
   position: relative;
   z-index: 10;
 }
@@ -15,6 +14,10 @@
 .grid-movie:hover {
   transition: 250ms;
   transform: scale(105%);
+}
+
+.grid-movie:hover .movie-poster {
+  transition: 250ms;
   filter: brightness(125%);
 }
 
@@ -44,10 +47,13 @@
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
   object-fit: cover;
-  -webkit-backface-visibility: hidden; 
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -ms-transform: translateZ(0);
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  transition: 250ms;
+  filter: none;
 }
 
 .movie-poster-container {
@@ -63,6 +69,7 @@
   gap: 0.25rem;
   align-items: center;
   color: var(--black);
+  z-index: 1;
 }
 
 .movie-poster-info {

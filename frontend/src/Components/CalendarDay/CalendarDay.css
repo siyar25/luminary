@@ -27,9 +27,6 @@
     font-weight: bold;
 }
 
-.calendar-month {
-}
-
 .calendar-day-container.active-day {
     transform: scale(110%);
     font-weight: bold;
