@@ -15,7 +15,9 @@ export default function AboutUsPage() {
           About Luminary
         </div>
       </div>
-      <div className="section-line"></div>
+      <div className="section-line" />
+
+      
     </div>
   );
 }

@@ -25,6 +25,18 @@
     list-style-type: none;
     flex-grow: 0.5;
     padding-left: 0;
+    transition: 250ms;
+}
+
+.nav-element:has(.active) {
+    transition: 250ms;
+    transform: scale(110%);
+}
+
+.nav-element:has(.active).nav-point::before {
+        transition: 250ms;
+        transform: translateY(25px);
+        background-color: var(--vivid-gold);
 }
 
 .nav-element {

@@ -15,6 +15,7 @@
     gap: 1rem;
     overflow: hidden;
     transform: 250ms;
+    padding: 2rem;
 }
 
 #trailer-modal::backdrop {
@@ -32,7 +33,7 @@
     color: var(--white);
     cursor: pointer;
     font-size: large;
-
+    height: fit-content;
 }
 
 .modal-title {
