@@ -46,11 +46,6 @@
     transition: 250ms;
 }
 
-.search-icon {
-    width: 40px;
-    filter: grayscale(1);
-}
-
 .nav-element:hover {
     transition: 250ms;
     transform: scale(110%);

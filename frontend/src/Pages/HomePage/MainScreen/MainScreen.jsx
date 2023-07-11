@@ -1,4 +1,3 @@
-import NavBar from "../../../Components/NavBar/NavBar";
 import movieBG from "../../../assets/venom-movie-bg.jpg";
 import moonKnighBG from "../../../assets/moonknight-bg.jpg";
 import venomLogo from "../../../assets/Venom-Logo.png";

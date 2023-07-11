@@ -5,3 +5,53 @@
   padding: 30% 4rem 1rem 4rem;
   gap: 2rem;
 }
+
+.aboutus-title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-bottom: 4rem;
+}
+
+.aboutus-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  font-size: xx-large;
+}
+
+.aboutus-section:nth-child(even) {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.aboutus-section {
+  width: 90%;
+  line-height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+}
+
+.aboutus-section:last-child {
+  align-self: center;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 3rem;
+  line-height: 4rem;
+  width: 70%;
+}
+
+.paragraph-image {
+  /* max-height: 40vh; */
+  max-width: 40vw;
+  border: 2px solid var(--vivid-gold);
+}
+
+.paragraph-luminary {
+  max-width: 30vw;
+  padding: 2rem
+}
+
