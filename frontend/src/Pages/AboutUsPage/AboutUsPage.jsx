@@ -5,25 +5,26 @@ import ParagraphTwo from "../../assets/aboutus-2.jpeg";
 import ParagraphThree from "../../assets/aboutus-3.jpg";
 import ParagraphFour from "../../assets/aboutus-4.png";
 import LuminaryLogo from "../../assets/luminary_nobg.png";
+import Station from "../..//assets/station.jpg";
 
 export default function AboutUsPage() {
   return (
     <div className="aboutus-page">
       <img
-        alt="Luminary Cinema logo"
+        alt="Stars in the dark sky"
         src={AboutUsImage}
         className="schedule-image"
       />
 
       <div className="subtitle">
-        <div className="subtitle-text" style={{ fontSize: "x-large" }}>
+        <div className="subtitle-text" style={{ fontSize: "xx-large" }}>
           About Luminary
         </div>
       </div>
       <div className="section-line" />
 
       <div className="aboutus-title">
-        Welcome to Luminary: Cinematic Elegance!
+        Welcome to<br /> Luminary: Cinematic Elegance!
       </div>
 
       <div className="aboutus-sections">
@@ -87,17 +88,11 @@ export default function AboutUsPage() {
 
         <section className="aboutus-section">
           <div>
-            <b style={{ textTransform: "uppercase" }}>
-              Welcome to<br />
-              <span className="paragraph-logo">
-                <img
-                  alt="Luminary logo"
-                  src={LuminaryLogo}
-                  className="paragraph-luminary"
-                />
-              </span>
-              ,
-            </b>
+            <img
+              alt="Luminary logo"
+              src={LuminaryLogo}
+              className="paragraph-luminary"
+            />
             <br />
             <br />
             where cinematic elegance shines bright. Let us guide you through a

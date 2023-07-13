@@ -12,7 +12,7 @@ export default function SchedulePage() {
       />
 
         <div className="subtitle">
-          <div className="subtitle-text" style={{fontSize:"x-large"}}>Schedule</div>
+          <div className="subtitle-text" style={{fontSize:"xx-large"}}>Schedule</div>
           <input
             className="opening-week-search"
             type="search"
