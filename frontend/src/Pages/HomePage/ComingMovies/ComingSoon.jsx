@@ -14,7 +14,7 @@ export default function ComingSoon() {
           duration="120"
           genres={["ACTION"]}
           posterSrc={movieBG}
-          releaseDate="2023 June 7."
+          releaseDate="2023 December 7."
         />
         <GridMovie
           title="Dunkirk"

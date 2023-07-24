@@ -1,0 +1,37 @@
+.calendar-day-container {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 250ms;
+    padding: 1rem 3%;
+    border-radius: 1rem;
+    border-bottom: 1px transparent;
+    width: 70px;
+}
+
+.calendar-day-container:hover {
+    transition: 250ms;
+    transform: scale(110%);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.calendar-day {
+    font-size: large;
+}
+
+.calendar-number {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.calendar-day-container.active-day {
+    transform: scale(110%);
+    font-weight: bold;
+    border-bottom: 1px solid var(--vivid-gold);
+    transition: 250ms;
+    background-color: rgba(255, 255, 255, 0.05);
+    /* color: var(--pale-yellow); */
+}

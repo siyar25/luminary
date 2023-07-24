@@ -3,9 +3,9 @@ import "./App.css";
 import HomePage from "./Pages/HomePage/HomePage";
 import NavBar from "./Components/NavBar/NavBar";
 import SchedulePage from "./Pages/SchedulePage/SchedulePage";
-import NewsPage from "./Pages/HomePage/NewsPage/NewsPage";
-import AboutUsPage from "./Pages/HomePage/AboutUsPage/AboutUsPage";
 import Footer from "./Components/Footer/Footer";
+import NewsPage from "./Pages/NewsPage/NewsPage";
+import AboutUsPage from "./Pages/AboutUsPage/AboutUsPage";
 
 function App() {
   return (
