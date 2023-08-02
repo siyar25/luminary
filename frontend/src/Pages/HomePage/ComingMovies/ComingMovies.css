@@ -46,7 +46,7 @@
 
 .opening-week-search {
   width: 30%;
-  height: 2.5rem;
+  height: max-content;
   background-color: rgba(0,0,0,0.1);
   border: 1px solid var(--gray);
   border-radius: 0.25rem;
