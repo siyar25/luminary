@@ -10,6 +10,7 @@
     border-radius: 1rem;
     border-bottom: 1px transparent;
     width: 70px;
+    margin: 0 0.5rem;
 }
 
 .calendar-day-container:hover {

@@ -13,6 +13,7 @@ import { useState } from "react";
 
 export default function MainScreen() {
   const [activeMovie, setActiveMovie] = useState(1);
+  const today = new Date().toLocaleString('en-US', {year:"numeric", month: "short", day: "2-digit"});
 
   function handleTrailer() {
     const trailerModal = document.getElementById("trailer-modal");
@@ -69,7 +70,7 @@ export default function MainScreen() {
           <div className="booking">
             <div className="book-now-btn">Book Now</div>
             <div className="book-now-info">
-              <div className="book-now-date">2023 May 22.</div>
+              <div className="book-now-date">{today}</div>
               <div className="book-now-movietype">IMAX 3D</div>
             </div>
           </div>

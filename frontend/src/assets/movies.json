@@ -1,0 +1,850 @@
+{
+  "opening": [
+    {
+      "Title": "Venom",
+      "Year": "2018",
+      "Rated": "PG-13",
+      "Released": "05 Oct 2018",
+      "Runtime": "112 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Ruben Fleischer",
+      "Writer": "Jeff Pinkner, Scott Rosenberg, Kelly Marcel",
+      "Actors": "Tom Hardy, Michelle Williams, Riz Ahmed",
+      "Plot": "A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.",
+      "Language": "English, Mandarin, Malay",
+      "Country": "United States, China",
+      "Awards": "2 wins & 8 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTFkZjdjN2QtOGE5MS00ZTgzLTgxZjAtYzkyZWQ5MjEzYmZjXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "30%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "35/100"
+        }
+      ],
+      "Metascore": "35",
+      "imdbRating": "6.6",
+      "imdbVotes": "509,520",
+      "imdbID": "tt1270797",
+      "Type": "movie",
+      "DVD": "18 Jun 2019",
+      "BoxOffice": "$213,515,506",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Avengers",
+      "Year": "2012",
+      "Rated": "PG-13",
+      "Released": "04 May 2012",
+      "Runtime": "143 min",
+      "Genre": "Action, Sci-Fi",
+      "Director": "Joss Whedon",
+      "Writer": "Joss Whedon, Zak Penn",
+      "Actors": "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+      "Plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "Language": "English, Russian",
+      "Country": "United States",
+      "Awards": "Nominated for 1 Oscar. 38 wins & 80 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "8.0",
+      "imdbVotes": "1,420,774",
+      "imdbID": "tt0848228",
+      "Type": "movie",
+      "DVD": "25 Sep 2012",
+      "BoxOffice": "$623,357,910",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Lord of the Rings: The Fellowship of the Ring",
+      "Year": "2001",
+      "Rated": "PG-13",
+      "Released": "19 Dec 2001",
+      "Runtime": "178 min",
+      "Genre": "Action, Adventure, Drama",
+      "Director": "Peter Jackson",
+      "Writer": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
+      "Actors": "Elijah Wood, Ian McKellen, Orlando Bloom",
+      "Plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "Language": "English, Sindarin",
+      "Country": "New Zealand, United States",
+      "Awards": "Won 4 Oscars. 123 wins & 127 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "92/100"
+        }
+      ],
+      "Metascore": "92",
+      "imdbRating": "8.8",
+      "imdbVotes": "1,923,743",
+      "imdbID": "tt0120737",
+      "Type": "movie",
+      "DVD": "06 Aug 2002",
+      "BoxOffice": "$316,115,420",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Pulp Fiction",
+      "Year": "1994",
+      "Rated": "R",
+      "Released": "14 Oct 1994",
+      "Runtime": "154 min",
+      "Genre": "Crime, Drama",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino, Roger Avary",
+      "Actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "Plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "Language": "English, Spanish, French",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 69 wins & 72 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "95/100"
+        }
+      ],
+      "Metascore": "95",
+      "imdbRating": "8.9",
+      "imdbVotes": "2,119,201",
+      "imdbID": "tt0110912",
+      "Type": "movie",
+      "DVD": "20 Aug 2002",
+      "BoxOffice": "$107,928,762",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "WALL·E",
+      "Year": "2008",
+      "Rated": "G",
+      "Released": "27 Jun 2008",
+      "Runtime": "98 min",
+      "Genre": "Animation, Adventure, Family",
+      "Director": "Andrew Stanton",
+      "Writer": "Andrew Stanton, Pete Docter, Jim Reardon",
+      "Actors": "Ben Burtt, Elissa Knight, Jeff Garlin",
+      "Plot": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+      "Language": "English",
+      "Country": "United States, Japan",
+      "Awards": "Won 1 Oscar. 96 wins & 95 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "95/100"
+        }
+      ],
+      "Metascore": "95",
+      "imdbRating": "8.4",
+      "imdbVotes": "1,149,686",
+      "imdbID": "tt0910970",
+      "Type": "movie",
+      "DVD": "18 Nov 2008",
+      "BoxOffice": "$223,808,164",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Fight Club",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "15 Oct 1999",
+      "Runtime": "139 min",
+      "Genre": "Drama",
+      "Director": "David Fincher",
+      "Writer": "Chuck Palahniuk, Jim Uhls",
+      "Actors": "Brad Pitt, Edward Norton, Meat Loaf",
+      "Plot": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+      "Language": "English",
+      "Country": "Germany, United States",
+      "Awards": "Nominated for 1 Oscar. 12 wins & 38 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "79%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Metascore": "67",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,208,722",
+      "imdbID": "tt0137523",
+      "Type": "movie",
+      "DVD": "14 Oct 2003",
+      "BoxOffice": "$37,030,102",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Inception",
+      "Year": "2010",
+      "Rated": "PG-13",
+      "Released": "16 Jul 2010",
+      "Runtime": "148 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan",
+      "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+      "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "Language": "English, Japanese, French",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 4 Oscars. 159 wins & 220 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "87%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,425,956",
+      "imdbID": "tt1375666",
+      "Type": "movie",
+      "DVD": "07 Dec 2010",
+      "BoxOffice": "$292,587,330",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Interstellar",
+      "Year": "2014",
+      "Rated": "PG-13",
+      "Released": "07 Nov 2014",
+      "Runtime": "169 min",
+      "Genre": "Adventure, Drama, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan",
+      "Actors": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+      "Plot": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+      "Language": "English",
+      "Country": "United States, United Kingdom, Canada",
+      "Awards": "Won 1 Oscar. 44 wins & 148 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "73%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "8.7",
+      "imdbVotes": "1,928,320",
+      "imdbID": "tt0816692",
+      "Type": "movie",
+      "DVD": "31 Mar 2015",
+      "BoxOffice": "$188,020,017",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Spider-Man",
+      "Year": "2002",
+      "Rated": "PG-13",
+      "Released": "03 May 2002",
+      "Runtime": "121 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Sam Raimi",
+      "Writer": "Stan Lee, Steve Ditko, David Koepp",
+      "Actors": "Tobey Maguire, Kirsten Dunst, Willem Dafoe",
+      "Plot": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 2 Oscars. 17 wins & 63 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "90%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "73/100"
+        }
+      ],
+      "Metascore": "73",
+      "imdbRating": "7.4",
+      "imdbVotes": "843,736",
+      "imdbID": "tt0145487",
+      "Type": "movie",
+      "DVD": "01 Nov 2002",
+      "BoxOffice": "$407,022,860",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Spider-Man 2",
+      "Year": "2004",
+      "Rated": "PG-13",
+      "Released": "30 Jun 2004",
+      "Runtime": "127 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Sam Raimi",
+      "Writer": "Stan Lee, Steve Ditko, Alfred Gough",
+      "Actors": "Tobey Maguire, Kirsten Dunst, Alfred Molina",
+      "Plot": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.",
+      "Language": "English, Russian, Chinese",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 25 wins & 60 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzY2ODk4NmUtOTVmNi00ZTdkLTlmOWYtMmE2OWVhNTU2OTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "83/100"
+        }
+      ],
+      "Metascore": "83",
+      "imdbRating": "7.4",
+      "imdbVotes": "677,251",
+      "imdbID": "tt0316654",
+      "Type": "movie",
+      "DVD": "30 Nov 2004",
+      "BoxOffice": "$373,585,825",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Star Wars: Episode IV - A New Hope",
+      "Year": "1977",
+      "Rated": "PG",
+      "Released": "25 May 1977",
+      "Runtime": "121 min",
+      "Genre": "Action, Adventure, Fantasy",
+      "Director": "George Lucas",
+      "Writer": "George Lucas",
+      "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
+      "Plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 6 Oscars. 65 wins & 31 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "90/100"
+        }
+      ],
+      "Metascore": "90",
+      "imdbRating": "8.6",
+      "imdbVotes": "1,405,284",
+      "imdbID": "tt0076759",
+      "Type": "movie",
+      "DVD": "06 Dec 2005",
+      "BoxOffice": "$460,998,507",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Matrix",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "31 Mar 1999",
+      "Runtime": "136 min",
+      "Genre": "Action, Sci-Fi",
+      "Director": "Lana Wachowski, Lilly Wachowski",
+      "Writer": "Lilly Wachowski, Lana Wachowski",
+      "Actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "Plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "Language": "English",
+      "Country": "United States, Australia",
+      "Awards": "Won 4 Oscars. 42 wins & 52 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "8.7/10" },
+        { "Source": "Rotten Tomatoes", "Value": "88%" },
+        { "Source": "Metacritic", "Value": "73/100" }
+      ],
+      "Metascore": "73",
+      "imdbRating": "8.7",
+      "imdbVotes": "1,974,027",
+      "imdbID": "tt0133093",
+      "Type": "movie",
+      "DVD": "15 May 2007",
+      "BoxOffice": "$172,076,928",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    }
+  ],
+  "comingSoon": [
+    {
+      "Title": "Oppenheimer",
+      "Year": "2023",
+      "Rated": "R",
+      "Released": "21 Jul 2023",
+      "Runtime": "180 min",
+      "Genre": "Biography, Drama, History",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan, Kai Bird, Martin Sherwin",
+      "Actors": "Cillian Murphy, Emily Blunt, Matt Damon",
+      "Plot": "The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb.",
+      "Language": "English, Dutch",
+      "Country": "United States, United Kingdom",
+      "Awards": "1 win & 1 nomination",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "88/100"
+        }
+      ],
+      "Metascore": "88",
+      "imdbRating": "8.7",
+      "imdbVotes": "252,355",
+      "imdbID": "tt15398776",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$174,566,060",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Barbie",
+      "Year": "2023",
+      "Rated": "PG-13",
+      "Released": "21 Jul 2023",
+      "Runtime": "114 min",
+      "Genre": "Adventure, Comedy, Fantasy",
+      "Director": "Greta Gerwig",
+      "Writer": "Greta Gerwig, Noah Baumbach",
+      "Actors": "Margot Robbie, Ariana Greenblatt, Kingsley Ben-Adir",
+      "Plot": "Barbie suffers a crisis that leads her to question her world and her existence.",
+      "Language": "English",
+      "Country": "United Kingdom, United States",
+      "Awards": "2 wins & 1 nomination",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt1517268",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Spider-Man: Across the Spider-Verse",
+      "Year": "2023",
+      "Rated": "PG",
+      "Released": "02 Jun 2023",
+      "Runtime": "140 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+      "Writer": "Phil Lord, Christopher Miller, Dave Callaham",
+      "Actors": "Shameik Moore, Hailee Steinfeld, Brian Tyree Henry",
+      "Plot": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a ...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "2 wins & 1 nomination",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "8.9/10" },
+        { "Source": "Rotten Tomatoes", "Value": "96%" },
+        { "Source": "Metacritic", "Value": "86/100" }
+      ],
+      "Metascore": "86",
+      "imdbRating": "8.9",
+      "imdbVotes": "174,379",
+      "imdbID": "tt9362722",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$351,963,302",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Mission: Impossible - Dead Reckoning Part One",
+      "Year": "2023",
+      "Rated": "PG-13",
+      "Released": "11 Jul 2023",
+      "Runtime": "163 min",
+      "Genre": "Action, Adventure, Thriller",
+      "Director": "Christopher McQuarrie",
+      "Writer": "Bruce Geller, Erik Jendresen, Christopher McQuarrie",
+      "Actors": "Tom Cruise, Hayley Atwell, Ving Rhames",
+      "Plot": "Ethan Hunt and his IMF team must track down a dangerous weapon before it falls into the wrong hands.",
+      "Language": "English, French, Italian, Russian",
+      "Country": "United States",
+      "Awards": "1 nomination",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzFiZjc1YzctMDY3Zi00NGE5LTlmNWEtN2Q3OWFjYjY1NGM2XkEyXkFqcGdeQXVyMTUyMTUzNjQ0._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "8.1/10" },
+        { "Source": "Metacritic", "Value": "81/100" }
+      ],
+      "Metascore": "81",
+      "imdbRating": "8.1",
+      "imdbVotes": "63,077",
+      "imdbID": "tt9603212",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$83,795,991",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Indiana Jones and the Dial of Destiny",
+      "Year": "2023",
+      "Rated": "PG-13",
+      "Released": "30 Jun 2023",
+      "Runtime": "154 min",
+      "Genre": "Action, Adventure",
+      "Director": "James Mangold",
+      "Writer": "Jez Butterworth, John-Henry Butterworth, David Koepp",
+      "Actors": "Harrison Ford, Phoebe Waller-Bridge, Antonio Banderas",
+      "Plot": "Archaeologist Indiana Jones races against time to retrieve a legendary artifact that can change the course of history.",
+      "Language": "English, German, Greek, Ancient (to 1453)",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDQxMTY3NTAtMzYwYi00Y2U3LThkYmQtOTljY2I4ZmJiZGIzXkEyXkFqcGdeQXVyMTU1NzY5NTky._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "6.8/10" },
+        { "Source": "Rotten Tomatoes", "Value": "69%" },
+        { "Source": "Metacritic", "Value": "58/100" }
+      ],
+      "Metascore": "58",
+      "imdbRating": "6.8",
+      "imdbVotes": "78,837",
+      "imdbID": "tt1462764",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$152,318,862",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Asteroid City",
+      "Year": "2023",
+      "Rated": "PG-13",
+      "Released": "23 Jun 2023",
+      "Runtime": "105 min",
+      "Genre": "Comedy, Drama, Romance",
+      "Director": "Wes Anderson",
+      "Writer": "Wes Anderson, Roman Coppola",
+      "Actors": "Jason Schwartzman, Scarlett Johansson, Tom Hanks",
+      "Plot": "Following a writer on his world famous fictional play about a grieving father who travels with his tech-obsessed family to small rural Asteroid City to compete in a junior stargazing event, only to have his world view disrupted fo...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "4 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDJmMzY0ZGUtYWE1My00OWViLTg1NTctOWMwZWJlNDQzNGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "7.0/10" },
+        { "Source": "Rotten Tomatoes", "Value": "74%" },
+        { "Source": "Metacritic", "Value": "74/100" }
+      ],
+      "Metascore": "74",
+      "imdbRating": "7.0",
+      "imdbVotes": "45,973",
+      "imdbID": "tt14230388",
+      "Type": "movie",
+      "DVD": "11 Jul 2023",
+      "BoxOffice": "$27,272,775",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Guardians of the Galaxy Vol. 3",
+      "Year": "2023",
+      "Rated": "PG-13",
+      "Released": "05 May 2023",
+      "Runtime": "150 min",
+      "Genre": "Action, Adventure, Comedy",
+      "Director": "James Gunn",
+      "Writer": "James Gunn, Jim Starlin, Stan Lee",
+      "Actors": "Chris Pratt, Chukwudi Iwuji, Bradley Cooper",
+      "Plot": "Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful.",
+      "Language": "English",
+      "Country": "United States, New Zealand, France, Canada",
+      "Awards": "2 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDgxOTdjMzYtZGQxMS00ZTAzLWI4Y2UtMTQzN2VlYjYyZWRiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "8.1/10" },
+        { "Source": "Rotten Tomatoes", "Value": "82%" },
+        { "Source": "Metacritic", "Value": "64/100" }
+      ],
+      "Metascore": "64",
+      "imdbRating": "8.1",
+      "imdbVotes": "218,674",
+      "imdbID": "tt6791350",
+      "Type": "movie",
+      "DVD": "07 Jul 2023",
+      "BoxOffice": "$358,552,074",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "No Hard Feelings",
+      "Year": "2023",
+      "Rated": "R",
+      "Released": "23 Jun 2023",
+      "Runtime": "103 min",
+      "Genre": "Comedy, Romance",
+      "Director": "Gene Stupnitsky",
+      "Writer": "Gene Stupnitsky, John Phillips",
+      "Actors": "Jennifer Lawrence, Andrew Barth Feldman, Laura Benanti",
+      "Plot": "On the brink of losing her home, Maddie finds an intriguing job listing: helicopter parents looking for someone to bring their introverted 19-year-old son out of his shell before college. She has one summer to make him a man or di...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjg3N2M3OWUtZGQ3NC00OGI1LTllZDUtMTdiYWQxMTk0YTg2XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "6.7/10" },
+        { "Source": "Metacritic", "Value": "59/100" }
+      ],
+      "Metascore": "59",
+      "imdbRating": "6.7",
+      "imdbVotes": "22,813",
+      "imdbID": "tt15671028",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$49,642,520",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Super Mario Bros. Movie",
+      "Year": "2023",
+      "Rated": "PG",
+      "Released": "05 Apr 2023",
+      "Runtime": "92 min",
+      "Genre": "Animation, Adventure, Comedy",
+      "Director": "Aaron Horvath, Michael Jelenic, Pierre Leduc",
+      "Writer": "Matthew Fogel",
+      "Actors": "Chris Pratt, Anya Taylor-Joy, Charlie Day",
+      "Plot": "A plumber named Mario travels through an underground labyrinth with his brother, Luigi, trying to save a captured princess.",
+      "Language": "English",
+      "Country": "United States, Japan",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTJhNzlmNzctNTU5Yy00N2YwLThhMjQtZDM0YjEzN2Y0ZjNhXkEyXkFqcGdeQXVyMTEwMTQ4MzU5._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "7.1/10" },
+        { "Source": "Rotten Tomatoes", "Value": "58%" },
+        { "Source": "Metacritic", "Value": "46/100" }
+      ],
+      "Metascore": "46",
+      "imdbRating": "7.1",
+      "imdbVotes": "157,900",
+      "imdbID": "tt6718170",
+      "Type": "movie",
+      "DVD": "16 May 2023",
+      "BoxOffice": "$573,785,300",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Insidious: The Red Door",
+      "Year": "2023",
+      "Rated": "PG-13",
+      "Released": "07 Jul 2023",
+      "Runtime": "107 min",
+      "Genre": "Horror, Mystery, Thriller",
+      "Director": "Patrick Wilson",
+      "Writer": "Leigh Whannell, Scott Teems",
+      "Actors": "Ty Simpkins, Patrick Wilson, Rose Byrne",
+      "Plot": "The Lamberts must go deeper into The Further than ever before to put their demons to rest once and for all.",
+      "Language": "English",
+      "Country": "United States, Canada",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTQyNGY5ZGQtN2E1MC00ZDhkLWJiYWMtMTFjODAwMDFmZDRhXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "6.0/10" },
+        { "Source": "Metacritic", "Value": "45/100" }
+      ],
+      "Metascore": "45",
+      "imdbRating": "6.0",
+      "imdbVotes": "15,565",
+      "imdbID": "tt13405778",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$75,931,584",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "John Wick: Chapter 4",
+      "Year": "2023",
+      "Rated": "R",
+      "Released": "24 Mar 2023",
+      "Runtime": "169 min",
+      "Genre": "Action, Crime, Thriller",
+      "Director": "Chad Stahelski",
+      "Writer": "Shay Hatten, Michael Finch, Derek Kolstad",
+      "Actors": "Keanu Reeves, Laurence Fishburne, George Georgiou",
+      "Plot": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+      "Language": "English, French, Japanese, Russian, Spanish, Cantonese, German, Latin",
+      "Country": "Germany, United States",
+      "Awards": "1 win & 3 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "7.8/10" },
+        { "Source": "Rotten Tomatoes", "Value": "94%" },
+        { "Source": "Metacritic", "Value": "78/100" }
+      ],
+      "Metascore": "78",
+      "imdbRating": "7.8",
+      "imdbVotes": "242,736",
+      "imdbID": "tt10366206",
+      "Type": "movie",
+      "DVD": "23 May 2023",
+      "BoxOffice": "$187,131,806",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Dungeons & Dragons: Honor Among Thieves",
+      "Year": "2023",
+      "Rated": "PG-13",
+      "Released": "31 Mar 2023",
+      "Runtime": "134 min",
+      "Genre": "Action, Adventure, Comedy",
+      "Director": "John Francis Daley, Jonathan Goldstein",
+      "Writer": "Jonathan Goldstein, John Francis Daley, Michael Gilio",
+      "Actors": "Chris Pine, Michelle Rodriguez, Regé-Jean Page",
+      "Plot": "A charming thief and a band of unlikely adventurers embark on an epic quest to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
+      "Language": "English",
+      "Country": "United States, Canada, United Kingdom, Iceland, Ireland, Australia",
+      "Awards": "3 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNmFkN2M2NzItOTY5YS00MmE2LTk3ZjctNTk2YzQ5ZmRiYzJjXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "7.3/10" },
+        { "Source": "Metacritic", "Value": "72/100" }
+      ],
+      "Metascore": "72",
+      "imdbRating": "7.3",
+      "imdbVotes": "143,330",
+      "imdbID": "tt2906216",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$93,277,026",
+      "Production": "Paramount Pictures",
+      "Website": "N/A",
+      "Response": "True"
+    }
+  ]
+}

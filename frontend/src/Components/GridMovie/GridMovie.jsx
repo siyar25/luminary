@@ -6,6 +6,7 @@ export default function GridMovie({
   genres,
   posterSrc,
   releaseDate,
+  comingSoon
 }) {
   const date = new Date().toLocaleDateString();
   const movieRelease = new Date(releaseDate);
@@ -14,10 +15,10 @@ export default function GridMovie({
   return (
     <div className="grid-movie">
       <div className="movie-poster-container">
-        {date < movieRelease.toLocaleDateString() ? (
+        {comingSoon ? (
           <div className="movie-poster-infos">
             <div className="movie-poster-info">📅</div>
-            <div className="movie-poster-info date">{movieRelease.toLocaleDateString("En-en", options)}</div>
+            <div className="movie-poster-info date">{releaseDate}</div>
           </div>
         ) : null}
         <img
@@ -28,9 +29,9 @@ export default function GridMovie({
       </div>
       <div className="movie-title">{title}</div>
       <div className="movie-info">
-        <div className="movie-duration">{duration} min</div>
+        <div className="movie-duration">{duration}</div>
         <div className="split-line">|</div>
-        <div className="movie-genres">{genres.join(", ")}</div>
+        <div className="movie-genres">{genres}</div>
       </div>
     </div>
   );

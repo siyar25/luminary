@@ -1,7 +1,8 @@
 import GridMovie from "../../../Components/GridMovie/GridMovie";
-import movieBG from "../../../assets/venom-movie-bg.jpg";
+import movies from "../../../assets/movies.json";
 
 export default function ComingSoon() {
+  
   return (
     <section className="coming-movies-section">
       <div className="subtitle">
@@ -9,62 +10,19 @@ export default function ComingSoon() {
       </div>
       <div className="section-line"></div>
       <div className="coming-movies-grid">
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2023 December 7."
-        />
-        <GridMovie
-          title="Dunkirk"
-          duration="118"
-          genres={["ACTION", "drama"]}
-          posterSrc={movieBG}
-          releaseDate="2024 February 5."
-        />
-        <GridMovie
-          title="Batman vs Superman"
-          duration="125"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2024 February 5."
-        />
-        <GridMovie
-          title="John Wick 2"
-          duration="116"
-          genres={["ACTION", "Thriller"]}
-          posterSrc={movieBG}
-          releaseDate="2024 February 5."
-        />
-        <GridMovie
-          title="Aquaman"
-          duration="120"
-          genres={["Adventure"]}
-          posterSrc={movieBG}
-          releaseDate="2024 February 5."
-        />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2024 February 5."
-        />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2024 February 5."
-        />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2024 February 5."
-        />
+      {movies.comingSoon.map((movie) => {
+          return (
+            <GridMovie
+              title={movie.Title}
+              duration={movie.Runtime}
+              genres={movie.Genre}
+              posterSrc={movie.Poster}
+              releaseDate={movie.Released}
+              comingSoon={true}
+              key={movie.imdbID}
+            />
+          );
+        })}
       </div>
     </section>
   );

@@ -1,13 +1,19 @@
 import "./ScheduleMovie.css";
-import moviePoster from "../../assets/venom-movie-bg.jpg";
 import CalendarDay from "../CalendarDay/CalendarDay";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
-export default function ScheduleMovie() {
+export default function ScheduleMovie({
+  title,
+  duration,
+  genres,
+  posterSrc,
+  rated,
+  imdbRating,
+  imdbId,
+}) {
   const [activeDay, setActiveDay] = useState(
     new Date().toLocaleString("en-us", { weekday: "long" })
   );
-
   const days = [
     "Monday",
     "Tuesday",
@@ -31,18 +37,24 @@ export default function ScheduleMovie() {
   return (
     <div className="schedule-movie">
       <div className="movie-top">
-        <img className="movie-poster" src={moviePoster} />
+        <img className="movie-poster" src={posterSrc} />
         <div className="movie-top-info">
           <div className="movie-top-info-row">
             <div className="movie-top-info-title">
-              Venom <span>13+</span>
+              {title} <span style={{fontWeight:"normal" }}>| {rated}</span>
             </div>
-            <a className="movie-top-info-imdb" href="https://www.imdb.com" target="blank">IMDb 6.6</a>
+            <a
+              className="movie-top-info-imdb"
+              href={`https://www.imdb.com/title/${imdbId}`}
+              target="blank"
+            >
+              IMDb {imdbRating}
+            </a>
           </div>
           <div className="movie-info">
-            <div className="movie-duration">120 min</div>
+            <div className="movie-duration">{duration}</div>
             <div className="split-line">|</div>
-            <div className="movie-genres">ACTION</div>
+            <div className="movie-genres">{genres}</div>
           </div>
           <div className="movie-top-schedule">
             {days.map((day) => {
