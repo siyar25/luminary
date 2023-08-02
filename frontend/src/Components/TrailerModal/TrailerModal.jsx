@@ -26,9 +26,9 @@ export default function TrailerModal({ movie }) {
         height="90%"
         src="https://www.youtube.com/embed/u9Mv98Gr5pY"
         title="VENOM - Official Trailer (HD)"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        allowFullScreen
         className="modal-video trailerModal"
       ></iframe>
     </dialog>

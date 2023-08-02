@@ -7,15 +7,16 @@
   left: 0;
   top: 0;
   box-shadow: -5px 25px 25px black;
+  filter: brightness(50%);
 }
 
 .container {
-    background-color: var(--black);
-    height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: var(--black);
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .movie-container {
@@ -29,15 +30,14 @@
 }
 
 .left-side {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    justify-content: left;
-
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: left;
 }
 
 .movie-title-logo {
-    width: 400px;
+  width: 400px;
 }
 
 .booking {
@@ -49,150 +49,149 @@
 }
 
 .book-now-btn {
-    width: 80%;
-    padding: 0.75rem 2rem;
-    background-color: var(--vivid-gold);
-    text-align: center;
-    border-radius: 5px;
-    font-size: large;
-    font-weight: bold;
-    margin-right: 1.5rem;
-    cursor: pointer;
-    transition: all 250ms;
-    border: solid 2px var(--vivid-gold);
-    color: var(--black);
+  width: 80%;
+  padding: 0.75rem 2rem;
+  background-color: var(--vivid-gold);
+  text-align: center;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  transition: all 250ms;
+  border: solid 2px var(--vivid-gold);
+  color: var(--black);
 }
 
 .book-now-btn:hover {
-    background-color: var(--black);
-    color: var(--vivid-gold);
-    transition: all 250ms;
+  background-color: var(--black);
+  color: var(--vivid-gold);
+  transition: all 250ms;
 }
 
 .book-now-info {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    color: var(--white);
-    font-size: large;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  color: var(--white);
+  font-size: large;
 }
 
 .book-now-date {
-    width: max-content;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  width: max-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .social-media {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-self: start;
-    padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: start;
+  padding: 0;
 }
 
 .social-app {
-    filter:invert(1) brightness(50%);
-    height: 35px;
-    width: 35px;
-    margin-right: 1rem;
-    cursor: pointer;
-    transition: 250ms;
+  filter: invert(1) brightness(50%);
+  height: 35px;
+  width: 35px;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: 250ms;
 }
 
 .social-app:hover {
-    transition: 250ms;
-    filter: invert(1) brightness(100%);
+  transition: 250ms;
+  filter: invert(1) brightness(100%);
 }
 
 .right-side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40%;
 }
 
 .play-button {
-    color: var(--vivid-gold);
-    background-color: var(--black);
-    border: solid 10px var(--pale-yellow);
-    font-size: large;
-    border-radius: 50%;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
-    text-align: center;
-    cursor: pointer;
-    transition: 250ms;
-    position: relative;
+  color: var(--vivid-gold);
+  background-color: var(--black);
+  border: solid 10px var(--pale-yellow);
+  font-size: large;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  cursor: pointer;
+  transition: 250ms;
+  position: relative;
 }
 
 .play-button:hover {
-    transition: 250ms;
-    color: var(--black);
-    background-color: var(--pale-yellow);
-    border-color: var(--vivid-gold);
-    transform: scale(110%);
-    font-size: 2rem;
-
+  transition: 250ms;
+  color: var(--black);
+  background-color: var(--pale-yellow);
+  border-color: var(--vivid-gold);
+  transform: scale(110%);
+  font-size: 2rem;
 }
 
 .trailer-btn {
-    font-size: large;
-    color: var(--white);
+  font-size: large;
+  color: var(--white);
 }
 
 .play-trailer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
 
 .pagination {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-    gap: 0.5rem;
-    color: var(--white);
-    letter-spacing: 5px;
-    font-size: 3rem;
-    cursor: pointer;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: lighter;
-    padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  gap: 0.5rem;
+  color: var(--white);
+  letter-spacing: 5px;
+  font-size: 3rem;
+  cursor: pointer;
+  font-family: "Work Sans", sans-serif;
+  font-weight: lighter;
+  padding-left: 0;
 }
 
 .page {
-    cursor: pointer;
-    transition: 250ms;
+  cursor: pointer;
+  transition: 250ms;
 }
 
 .page:hover {
-    transition: 250ms;
-    transform: translateY(-5px);
+  transition: 250ms;
+  transform: translateY(-5px);
 }
 
 .arrow {
-    cursor: pointer;
-    transition: 250ms;
+  cursor: pointer;
+  transition: 250ms;
 }
 
 .arrow:hover {
-    transition: 250ms;
-    color: var(--pale-yellow);
+  transition: 250ms;
+  color: var(--pale-yellow);
 }
 
 .page.active {
-    font-size: 4rem;
-    color: var(--vivid-gold);
+  font-size: 4rem;
+  color: var(--vivid-gold);
 }
 
 .page.active {
-    transform: none;
+  transform: none;
 }

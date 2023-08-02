@@ -5,7 +5,6 @@ import PostImage from "../../assets/station.jpg";
 import Billboard from "../../assets/billboard-1.jpg";
 import Billboard2 from "../../assets/billboard-2.jpg";
 
-
 export default function NewsPage() {
   const date = new Date().toDateString();
 
