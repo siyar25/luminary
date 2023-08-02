@@ -4,6 +4,10 @@ import screen3 from "../../../assets/posters/screen-3.jpg";
 import screen4 from "../../../assets/posters/screen-4.jpg";
 import screen5 from "../../../assets/posters/screen-5.jpg";
 import venomLogo from "../../../assets/Venom-Logo.png";
+import avengersLogo from "../../../assets/posters/titles/avengers-title.png";
+import inceptionLogo from "../../../assets/posters/titles/inception-title.png";
+import walleLogo from "../../../assets/posters/titles/wall-e-title.png";
+import pulpFictionLogo from "../../../assets/posters/titles/pulp-fiction-title.png";
 import fbIcon from "../../../assets/social-media/facebook-icon.png";
 import twitterIcon from "../../../assets/social-media/twitter-icon.png";
 import instagramIcon from "../../../assets/social-media/instagram-icon.png";
@@ -13,7 +17,11 @@ import { useState } from "react";
 
 export default function MainScreen() {
   const [activeMovie, setActiveMovie] = useState(1);
-  const today = new Date().toLocaleString('en-US', {year:"numeric", month: "short", day: "2-digit"});
+  const today = new Date().toLocaleString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+  });
 
   function handleTrailer() {
     const trailerModal = document.getElementById("trailer-modal");
@@ -44,29 +52,62 @@ export default function MainScreen() {
     <div className="container">
       <TrailerModal />
       <div className="slides">
-        <div id="slide-1" style={{ display: activeMovie === 1 ? "" : "none" }}>
-          <img alt="movie-poster" src={movieBG} className="mainscreen-bg" />
-        </div>
-        <div id="slide-2" style={{ display: activeMovie === 2 ? "" : "none" }}>
-          <img alt="movie-poster" src={screen2} className="mainscreen-bg" />
-        </div>
-        <div id="slide-3" style={{ display: activeMovie === 3 ? "" : "none" }}>
-          <img alt="movie-poster" src={screen3} className="mainscreen-bg" />
-        </div>
-        <div id="slide-4" style={{ display: activeMovie === 4 ? "" : "none" }}>
-          <img alt="movie-poster" src={screen4} className="mainscreen-bg" />
-        </div>
-        <div id="slide-5" style={{ display: activeMovie === 5 ? "" : "none" }}>
-          <img alt="movie-poster" src={screen5} className="mainscreen-bg" />
-        </div>
+        {activeMovie === 1 ? (
+          <div
+            id="slide-1"
+            style={{ display: activeMovie === 1 ? "" : "none" }}
+          >
+            <img alt="movie-poster" src={movieBG} className="mainscreen-bg" />
+          </div>
+        ) : activeMovie === 2 ? (
+          <div
+            id="slide-2"
+            style={{ display: activeMovie === 2 ? "" : "none" }}
+          >
+            <img alt="movie-poster" src={screen2} className="mainscreen-bg" />
+          </div>
+        ) : activeMovie === 3 ? (
+          <div
+            id="slide-3"
+            style={{ display: activeMovie === 3 ? "" : "none" }}
+          >
+            <img alt="movie-poster" src={screen3} className="mainscreen-bg" />
+          </div>
+        ) : activeMovie === 4 ? (
+          <div
+            id="slide-4"
+            style={{ display: activeMovie === 4 ? "" : "none" }}
+          >
+            <img alt="movie-poster" src={screen4} className="mainscreen-bg" />
+          </div>
+        ) : activeMovie === 5 ? (
+          <div
+            id="slide-5"
+            style={{ display: activeMovie === 5 ? "" : "none" }}
+          >
+            <img alt="movie-poster" src={screen5} className="mainscreen-bg" />
+          </div>
+        ) : (
+          ""
+        )}
       </div>
       <div className="movie-container">
         <div className="left-side">
-          <img
-            className="movie-title-logo"
-            src={venomLogo}
-            style={{ visibility: activeMovie === 1 ? "" : "hidden" }}
-          />
+          <div className="movie-title-logo-div">
+            {activeMovie === 1 ? (
+              <img className="movie-title-logo" src={venomLogo} />
+            ) : activeMovie === 2 ? (
+              <img className="movie-title-logo" src={avengersLogo} />
+            ) : activeMovie === 3 ? (
+              <img className="movie-title-logo" src={inceptionLogo} />
+            ) : activeMovie === 4 ? (
+              <img className="movie-title-logo" src={walleLogo} />
+            ) : activeMovie === 5 ? (
+              <img className="movie-title-logo" src={pulpFictionLogo} />
+            ) : (
+              ""
+            )}
+          </div>
           <div className="booking">
             <div className="book-now-btn">Book Now</div>
             <div className="book-now-info">
