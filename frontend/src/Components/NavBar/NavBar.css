@@ -95,3 +95,8 @@
     /* background-color: rgba(0, 0, 0, 0.05); */
     /* padding: 1.5rem 2rem; */
 }
+
+a:link, a:visited, a:active  {
+  color: var(--white);
+  text-decoration: none;
+}
