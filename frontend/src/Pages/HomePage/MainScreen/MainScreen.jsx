@@ -12,7 +12,7 @@ import TrailerModal from "../../../Components/TrailerModal/TrailerModal";
 import { useState } from "react";
 
 export default function MainScreen() {
-  const [activeMovie, setActiveMovie] = useState(2);
+  const [activeMovie, setActiveMovie] = useState(1);
 
   function handleTrailer() {
     const trailerModal = document.getElementById("trailer-modal");
@@ -25,19 +25,23 @@ export default function MainScreen() {
 
   function handleArrows(direction) {
     switch (direction) {
-      case "left": activeMovie === 1 ? setActiveMovie(5) : setActiveMovie((prev) => prev - 1);
+      case "left":
+        activeMovie === 1
+          ? setActiveMovie(5)
+          : setActiveMovie((prev) => prev - 1);
         break;
 
-      case "right": activeMovie === 5 ? setActiveMovie(1) : setActiveMovie((prev) => prev + 1);
+      case "right":
+        activeMovie === 5
+          ? setActiveMovie(1)
+          : setActiveMovie((prev) => prev + 1);
         break;
     }
-    console.log(direction)
   }
 
   return (
     <div className="container">
       <TrailerModal />
-
       <div className="slides">
         <div id="slide-1" style={{ display: activeMovie === 1 ? "" : "none" }}>
           <img alt="movie-poster" src={movieBG} className="mainscreen-bg" />
