@@ -87,9 +87,7 @@
   border: 2px solid var(--vivid-gold);
 }
 
-.movie-type:hover,
-.movie-type:focus,
-.movie-type:focus-visible {
+.movie-type:hover {
   transition: 250ms;
   background-color: var(--black);
   color: var(--vivid-gold);

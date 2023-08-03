@@ -70,11 +70,11 @@
   cursor: pointer;
   transition: 250ms;
   border: 1px solid var(--white);
+  display: flex;
+  flex-direction: row;
 }
 
-.movie-bottom-screening:hover,
-.movie-bottom-screening:focus,
-.movie-bottom-screening:focus-visible {
+.movie-bottom-screening:hover {
   transition: 250ms;
   background-color: var(--black);
   color: var(--vivid-gold);

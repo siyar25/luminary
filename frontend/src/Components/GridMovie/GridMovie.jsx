@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./GridMovie.css";
 
 export default function GridMovie({
@@ -6,14 +7,15 @@ export default function GridMovie({
   genres,
   posterSrc,
   releaseDate,
-  comingSoon
+  comingSoon,
+  imdbId
 }) {
   const date = new Date().toLocaleDateString();
   const movieRelease = new Date(releaseDate);
   const options = { month: 'long', day: 'numeric' };
   
   return (
-    <div className="grid-movie" tabIndex={0}>
+    <Link className="grid-movie" tabIndex={0} to={`/movie/${imdbId}`}>
       <div className="movie-poster-container">
         {comingSoon ? (
           <div className="movie-poster-infos">
@@ -33,6 +35,6 @@ export default function GridMovie({
         <div className="split-line">|</div>
         <div className="movie-genres">{genres}</div>
       </div>
-    </div>
+    </Link>
   );
 }

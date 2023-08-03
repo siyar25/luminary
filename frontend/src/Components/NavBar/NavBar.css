@@ -46,9 +46,7 @@
   transition: 250ms;
 }
 
-.nav-element:hover,
-.nav-element:focus,
-.nav-element:focus-visible {
+.nav-element:hover {
   transition: 250ms;
   transform: scale(110%);
 }
@@ -79,9 +77,7 @@
     /* transition: 250ms; */
   /* } */
 
-.nav-point:hover::before,
-.nav-point:focus::before,
-.nav-point:focus-visible::before {
+.nav-point:hover::before {
   transition: 250ms;
   transform: translateY(-15px);
   background-color: var(--vivid-gold);
@@ -108,9 +104,7 @@ a:focus-visible::before {
   border: 2px solid var(--vivid-gold);
 }
 
-.sign-in-btn:hover,
-.sign-in-btn:focus,
-.sign-in-btn:focus-visible {
+.sign-in-btn:hover {
   transition: 250ms;
   color: var(--vivid-gold);
   background-color: var(--black);
@@ -125,11 +119,11 @@ a:focus-visible::before {
   transition: 250ms;
 }
 
-.logo:focus,
+/* .logo:focus,
 .logo:focus-visible {
     transition: 250ms;
     transform: scale(105%);
-}
+} */
 
 a:link,
 a:visited,

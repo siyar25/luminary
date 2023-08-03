@@ -13,9 +13,7 @@
     margin: 0 0.5rem;
 }
 
-.calendar-day-container:hover,
-.calendar-day-container:focus,
-.calendar-day-container:focus-visible {
+.calendar-day-container:hover {
     transition: 250ms;
     transform: scale(110%);
     background-color: rgba(255, 255, 255, 0.05);

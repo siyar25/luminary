@@ -10,7 +10,7 @@
       "Director": "Ruben Fleischer",
       "Writer": "Jeff Pinkner, Scott Rosenberg, Kelly Marcel",
       "Actors": "Tom Hardy, Michelle Williams, Riz Ahmed",
-      "Plot": "A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.",
+      "Plot": "After a faulty interview with the Life Foundation ruins his career, former reporter Eddie Brock's life is in pieces. Six months later, he comes across the Life Foundation again, and he comes into contact with an alien symbiote and becomes Venom, a parasitic antihero.",
       "Language": "English, Mandarin, Malay",
       "Country": "United States, China",
       "Awards": "2 wins & 8 nominations",
@@ -38,6 +38,10 @@
       "BoxOffice": "$213,515,506",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "VENOM - Official Trailer (HD)",
+        "url": "https://www.youtube.com/embed/u9Mv98Gr5pY"
+      },
       "Response": "True"
     },
     {
@@ -78,6 +82,10 @@
       "BoxOffice": "$623,357,910",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Marvel's The Avengers - Trailer (OFFICIAL)",
+        "url": "https://www.youtube.com/embed/eOrNdBpGMv8"
+      },
       "Response": "True"
     },
     {
@@ -118,6 +126,10 @@
       "BoxOffice": "$316,115,420",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "The Lord of the Rings: The Fellowship of the Ring Official Trailer #1 - (2001) HD",
+        "url": "https://www.youtube.com/embed/V75dMMIW2B4"
+      },
       "Response": "True"
     },
     {
@@ -158,6 +170,10 @@
       "BoxOffice": "$107,928,762",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Pulp Fiction Official Trailer #1 - (1994) HD",
+        "url": "https://www.youtube.com/embed/s7EdQ4FqbhY"
+      },
       "Response": "True"
     },
     {
@@ -198,6 +214,10 @@
       "BoxOffice": "$223,808,164",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "WALL•E | Trailer | Official Disney Pixar UK",
+        "url": "https://www.youtube.com/embed/alIq_wG9FNk"
+      },
       "Response": "True"
     },
     {
@@ -238,6 +258,10 @@
       "BoxOffice": "$37,030,102",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Fight Club (1999) Trailer #1 | Movieclips Classic Trailers",
+        "url": "https://www.youtube.com/embed/qtRKdVHc-cE"
+      },
       "Response": "True"
     },
     {
@@ -278,6 +302,10 @@
       "BoxOffice": "$292,587,330",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Inception - Official Trailer [HD]",
+        "url": "https://www.youtube.com/embed/8hP9D6kZseM"
+      },
       "Response": "True"
     },
     {
@@ -318,6 +346,10 @@
       "BoxOffice": "$188,020,017",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Interstellar Movie - Official Trailer",
+        "url": "https://www.youtube.com/embed/2LqzF5WauAw"
+      },
       "Response": "True"
     },
     {
@@ -358,6 +390,10 @@
       "BoxOffice": "$407,022,860",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "SPIDER-MAN [2002] - Official Trailer (HD)",
+        "url": "https://www.youtube.com/embed/t06RUxPbp_c"
+      },
       "Response": "True"
     },
     {
@@ -398,6 +434,10 @@
       "BoxOffice": "$373,585,825",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Spider-man 2 (2004) - Trailer",
+        "url": "https://www.youtube.com/embed/3jBFwltrxJw"
+      },
       "Response": "True"
     },
     {
@@ -438,6 +478,10 @@
       "BoxOffice": "$460,998,507",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Star Wars Episode IV: A New Hope - Trailer",
+        "url": "https://www.youtube.com/embed/vZ734NWnAHA"
+      },
       "Response": "True"
     },
     {
@@ -469,6 +513,10 @@
       "BoxOffice": "$172,076,928",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "The Matrix (1999) Official Trailer #1 - Sci-Fi Action Movie",
+        "url": "https://www.youtube.com/embed/vKQi3bBA1y8"
+      },
       "Response": "True"
     }
   ],
@@ -511,6 +559,10 @@
       "BoxOffice": "$174,566,060",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Oppenheimer | Official Trailer",
+        "url": "https://www.youtube.com/embed/bK6ldnjE3Y0"
+      },
       "Response": "True"
     },
     {
@@ -538,6 +590,10 @@
       "BoxOffice": "N/A",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Barbie | Main Trailer",
+        "url": "https://www.youtube.com/embed/pBk4NYhWNMM"
+      },
       "Response": "True"
     },
     {
@@ -569,6 +625,10 @@
       "BoxOffice": "$351,963,302",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "SPIDER-MAN: ACROSS THE SPIDER-VERSE - Official Trailer (HD)",
+        "url": "https://www.youtube.com/embed/cqGjhVJWtEg"
+      },
       "Response": "True"
     },
     {
@@ -599,6 +659,10 @@
       "BoxOffice": "$83,795,991",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Mission: Impossible – Dead Reckoning Part One | Official Trailer (2023 Movie) - Tom Cruise",
+        "url": "https://www.youtube.com/embed/avz06PDqDbM"
+      },
       "Response": "True"
     },
     {
@@ -630,6 +694,10 @@
       "BoxOffice": "$152,318,862",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Indiana Jones and the Dial of Destiny | Official Trailer",
+        "url": "https://www.youtube.com/embed/eQfMbSe7F2g"
+      },
       "Response": "True"
     },
     {
@@ -661,6 +729,10 @@
       "BoxOffice": "$27,272,775",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Asteroid City - Official Trailer - In Select Theaters June 16, Everywhere June 23",
+        "url": "https://www.youtube.com/embed/9FXCSXuGTF4"
+      },
       "Response": "True"
     },
     {
@@ -692,6 +764,10 @@
       "BoxOffice": "$358,552,074",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Marvel Studios' Guardians of the Galaxy Vol. 3 | Official Trailer",
+        "url": "https://www.youtube.com/embed/u3V5KDHRQvk"
+      },
       "Response": "True"
     },
     {
@@ -722,6 +798,10 @@
       "BoxOffice": "$49,642,520",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "NO HARD FEELINGS - Official Red Band Trailer (HD)",
+        "url": "https://www.youtube.com/embed/P15S6ND8kbQ"
+      },
       "Response": "True"
     },
     {
@@ -753,6 +833,10 @@
       "BoxOffice": "$573,785,300",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "The Super Mario Bros. Movie | Official Trailer",
+        "url": "https://www.youtube.com/embed/TnGl01FkMMo"
+      },
       "Response": "True"
     },
     {
@@ -783,6 +867,10 @@
       "BoxOffice": "$75,931,584",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "INSIDIOUS: THE RED DOOR - Official Trailer (HD)",
+        "url": "https://www.youtube.com/embed/ZuQuOnYnr3Q"
+      },
       "Response": "True"
     },
     {
@@ -814,6 +902,10 @@
       "BoxOffice": "$187,131,806",
       "Production": "N/A",
       "Website": "N/A",
+      "Trailer": {
+        "title": "John Wick: Chapter 4 (2023 Movie) Official Trailer - Keanu Reeves, Donnie Yen, Bill Skarsgård",
+        "url": "https://www.youtube.com/embed/qEVUtrk8_B4"
+      },
       "Response": "True"
     },
     {
@@ -844,6 +936,10 @@
       "BoxOffice": "$93,277,026",
       "Production": "Paramount Pictures",
       "Website": "N/A",
+      "Trailer": {
+        "title": "Dungeons &amp; Dragons: Honor Among Thieves | Official Trailer (2023 Movie)",
+        "url": "https://www.youtube.com/embed/IiMinixSXII"
+      },
       "Response": "True"
     }
   ]

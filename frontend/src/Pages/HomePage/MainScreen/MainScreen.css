@@ -71,9 +71,7 @@
   color: var(--black);
 }
 
-.book-now-btn:hover,
-.book-now-btn:focus,
-.book-now-btn:focus-visible {
+.book-now-btn:hover {
   background-color: var(--black);
   color: var(--vivid-gold);
   transition: all 250ms;
@@ -111,9 +109,7 @@
   transition: 250ms;
 }
 
-.social-app:hover,
-.social-app:focus,
-.social-app:focus-visible {
+.social-app:hover {
   transition: 250ms;
   filter: invert(1) brightness(100%);
 }
@@ -141,9 +137,7 @@
   position: relative;
 }
 
-.play-button:hover,
-.play-button:focus,
-.play-button:focus-visible {
+.play-button:hover {
   transition: 250ms;
   color: var(--black);
   background-color: var(--pale-yellow);
@@ -187,9 +181,7 @@
   width: 33px;
 }
 
-.page:hover,
-.page:focus,
-.page:focus-visible {
+.page:hover {
   transition: 250ms;
   transform: translateY(-5px);
 }

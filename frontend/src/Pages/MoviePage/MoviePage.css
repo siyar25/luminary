@@ -1,0 +1,80 @@
+.movie-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 110vh 4rem 1rem 4rem;
+  gap: 5rem;
+}
+
+.movie-page-trailer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: -5px 25px 25px black;
+}
+
+.movie-page-section {
+    display: flex;
+    flex-direction: column;
+    font-family: "Work Sans";
+    gap: 1rem;
+}
+
+.movie-page-section .titles {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: uppercase;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* margin-bottom: 0.75rem; */
+    gap: 10%;
+}
+
+.titles .title {
+    width: 40%;
+}
+
+.movie-page-section .inner-sections {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 10%;
+}
+
+.inner-sections .details {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+.inner-sections .plot {
+    font-size: x-large;
+    width: 40%;
+    /* text-align: right; */
+}
+
+.details .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 0.75rem 0;
+    gap: 20%;
+    text-align: right;
+    font-size: x-large;
+}
+
+.detail-value {
+    font-weight: bold;
+}
+
+.movie-page-title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}

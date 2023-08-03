@@ -20,6 +20,7 @@ export default function ComingSoon() {
               releaseDate={movie.Released}
               comingSoon={true}
               key={movie.imdbID}
+              imdbId={movie.imdbID}
             />
           );
         })}

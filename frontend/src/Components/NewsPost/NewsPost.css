@@ -59,9 +59,7 @@
     transition: all 250ms;
 }
 
-.newspost-more:hover,
-.newspost-more:focus,
-.newspost-more:focus-visible {
+.newspost-more:hover {
     background-color: var(--black);
     color: var(--vivid-gold);
     transition: all 250ms;

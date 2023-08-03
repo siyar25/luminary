@@ -29,6 +29,7 @@ export default function OpeningThisWeek() {
               duration={movie.Runtime}
               genres={movie.Genre}
               posterSrc={movie.Poster}
+              imdbId={movie.imdbID}
               key={movie.imdbID}
             />
           );
