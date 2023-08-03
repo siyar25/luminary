@@ -12,12 +12,16 @@
   width: 250px;
 }
 
-.grid-movie:hover {
+.grid-movie:hover,
+.grid-movie:focus,
+.grid-movie:focus-visible {
   transition: 250ms;
   transform: scale(105%);
 }
 
-.grid-movie:hover .movie-poster {
+.grid-movie:hover .movie-poster,
+.grid-movie:focus .movie-poster,
+.grid-movie:focus-visible .movie-poster {
   transition: 250ms;
   filter: brightness(125%);
 }
@@ -38,7 +42,9 @@
 
 }
 
-.grid-movie:hover::before {
+.grid-movie:hover::before,
+.grid-movie:focus::before,
+.grid-movie:focus-visible::before {
   transition: 250ms;
   opacity: 100%;
 }

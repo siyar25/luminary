@@ -37,10 +37,10 @@ export default function ScheduleMovie({
   return (
     <div className="schedule-movie">
       <div className="movie-top">
-        <img className="movie-poster" src={posterSrc} />
+        <img className="movie-poster" src={posterSrc} tabIndex={0} />
         <div className="movie-top-info">
           <div className="movie-top-info-row">
-            <div className="movie-top-info-title">
+            <div className="movie-top-info-title" tabIndex={0}>
               {title} <span style={{fontWeight:"normal" }}>| {rated}</span>
             </div>
             <a
@@ -76,8 +76,8 @@ export default function ScheduleMovie({
             })}
           </div>
           <div className="movie-top-arrows">
-            <div className="movie-top-arrow">⬅</div>
-            <div className="movie-top-arrow">➡</div>
+            <div className="movie-top-arrow" tabIndex={0}>⬅</div>
+            <div className="movie-top-arrow" tabIndex={0}>➡</div>
           </div>
         </div>
       </div>
@@ -86,19 +86,19 @@ export default function ScheduleMovie({
           <div className="movie-bottom-type" style={{ marginRight: `17%` }}>
             2D
           </div>
-          <div className="movie-bottom-screening">12:00</div>
+          <div className="movie-bottom-screening" tabIndex={0}>12:00</div>
         </div>
         <div className="movie-bottom-row">
           <div className="movie-bottom-type" style={{ marginRight: `35%` }}>
             3D
           </div>
-          <div className="movie-bottom-screening">15:00</div>
+          <div className="movie-bottom-screening" tabIndex={0}>15:00</div>
         </div>
         <div className="movie-bottom-row">
           <div className="movie-bottom-type" style={{ marginRight: `75%` }}>
             IMAX 3D
           </div>
-          <div className="movie-bottom-screening">21:00</div>
+          <div className="movie-bottom-screening" tabIndex={0}>21:00</div>
         </div>
       </div>
     </div>

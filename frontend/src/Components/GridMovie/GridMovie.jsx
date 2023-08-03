@@ -13,7 +13,7 @@ export default function GridMovie({
   const options = { month: 'long', day: 'numeric' };
   
   return (
-    <div className="grid-movie">
+    <div className="grid-movie" tabIndex={0}>
       <div className="movie-poster-container">
         {comingSoon ? (
           <div className="movie-poster-infos">

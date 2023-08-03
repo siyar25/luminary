@@ -13,6 +13,7 @@ import twitterIcon from "../../../assets/social-media/twitter-icon.png";
 import instagramIcon from "../../../assets/social-media/instagram-icon.png";
 import "./MainScreen.css";
 import TrailerModal from "../../../Components/TrailerModal/TrailerModal";
+import movies from "../../../assets/movies.json";
 import { useState } from "react";
 
 export default function MainScreen() {
@@ -22,6 +23,11 @@ export default function MainScreen() {
     month: "short",
     day: "2-digit",
   });
+  const venom = movies.opening[0];
+  const avengers = movies.opening[1];
+  const inception = movies.opening[6];
+  const wallE = movies.opening[4];
+  const pulpFiction = movies.opening[3];
 
   function handleTrailer() {
     const trailerModal = document.getElementById("trailer-modal");
@@ -50,7 +56,19 @@ export default function MainScreen() {
 
   return (
     <div className="container">
-      <TrailerModal />
+      <TrailerModal
+        movie={
+          activeMovie === 1
+            ? venom
+            : activeMovie === 2
+            ? avengers
+            : activeMovie === 3
+            ? inception
+            : activeMovie === 4
+            ? wallE
+            : pulpFiction
+        }
+      />
       <div className="slides">
         {activeMovie === 1 ? (
           <div
@@ -80,15 +98,13 @@ export default function MainScreen() {
           >
             <img alt="movie-poster" src={screen4} className="mainscreen-bg" />
           </div>
-        ) : activeMovie === 5 ? (
+        ) : (
           <div
             id="slide-5"
             style={{ display: activeMovie === 5 ? "" : "none" }}
           >
             <img alt="movie-poster" src={screen5} className="mainscreen-bg" />
           </div>
-        ) : (
-          ""
         )}
       </div>
       <div className="movie-container">
@@ -102,32 +118,50 @@ export default function MainScreen() {
               <img className="movie-title-logo" src={inceptionLogo} />
             ) : activeMovie === 4 ? (
               <img className="movie-title-logo" src={walleLogo} />
-            ) : activeMovie === 5 ? (
-              <img className="movie-title-logo" src={pulpFictionLogo} />
             ) : (
-              ""
+              <img className="movie-title-logo" src={pulpFictionLogo} />
             )}
           </div>
           <div className="booking">
-            <div className="book-now-btn">Book Now</div>
+            <div className="book-now-btn" tabIndex={0}>
+              Book Now
+            </div>
             <div className="book-now-info">
               <div className="book-now-date">{today}</div>
-              <div className="book-now-movietype">IMAX 3D</div>
+              <div className="book-now-movietype">IMAX 2D</div>
             </div>
           </div>
           <div className="social-media">
-            <img alt="facebook icon" src={fbIcon} className="social-app" />
-            <img alt="twitter icon" src={twitterIcon} className="social-app" />
+            <img
+              alt="facebook icon"
+              src={fbIcon}
+              className="social-app"
+              tabIndex={0}
+              onClick={() => window.open("https://www.facebook.com", "_blank")}
+            />
+            <img
+              alt="twitter icon"
+              src={twitterIcon}
+              className="social-app"
+              tabIndex={0}
+              onClick={() => window.open("https://www.twitter.com", "_blank")}
+            />
             <img
               alt="instagram icon"
               src={instagramIcon}
               className="social-app"
+              tabIndex={0}
+              onClick={() => window.open("https://www.instagram.com", "_blank")}
             />
           </div>
         </div>
         <div className="right-side">
           <div className="play-trailer">
-            <div className="play-button" onClick={() => handleTrailer()}>
+            <div
+              className="play-button"
+              onClick={() => handleTrailer()}
+              tabIndex={0}
+            >
               ▶
             </div>
             <div className="trailer-btn">Watch Trailer</div>
@@ -137,6 +171,7 @@ export default function MainScreen() {
               className="arrow"
               data-direction="left"
               onClick={(e) => handleArrows(e.target.dataset.direction)}
+              tabIndex={0}
             >
               ⬅
             </li>
@@ -144,6 +179,7 @@ export default function MainScreen() {
               className={`page ${activeMovie === 1 ? "active" : ""}`}
               onClick={(e) => handlePagination(e)}
               id="screen-1"
+              tabIndex={0}
             >
               1
             </li>
@@ -151,6 +187,7 @@ export default function MainScreen() {
               className={`page ${activeMovie === 2 ? "active" : ""}`}
               onClick={(e) => handlePagination(e)}
               id="screen-2"
+              tabIndex={0}
             >
               2
             </li>
@@ -158,6 +195,7 @@ export default function MainScreen() {
               className={`page ${activeMovie === 3 ? "active" : ""}`}
               onClick={(e) => handlePagination(e)}
               id="screen-3"
+              tabIndex={0}
             >
               3
             </li>
@@ -165,6 +203,7 @@ export default function MainScreen() {
               className={`page ${activeMovie === 4 ? "active" : ""}`}
               onClick={(e) => handlePagination(e)}
               id="screen-4"
+              tabIndex={0}
             >
               4
             </li>
@@ -172,6 +211,7 @@ export default function MainScreen() {
               className={`page ${activeMovie === 5 ? "active" : ""}`}
               onClick={(e) => handlePagination(e)}
               id="screen-5"
+              tabIndex={0}
             >
               5
             </li>
@@ -179,6 +219,7 @@ export default function MainScreen() {
               className="arrow"
               data-direction="right"
               onClick={(e) => handleArrows(e.target.dataset.direction)}
+              tabIndex={0}
             >
               ➡
             </li>

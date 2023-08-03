@@ -25,21 +25,21 @@
 }
 
 .movie-top-info-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .movie-top-info-title {
   font-weight: bold;
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .movie-top-info-details {
-    font-size: small;
-    color: gray;
-
+  font-size: small;
+  color: gray;
 }
 
 .movie-bottom {
@@ -72,7 +72,9 @@
   border: 1px solid var(--white);
 }
 
-.movie-bottom-screening:hover {
+.movie-bottom-screening:hover,
+.movie-bottom-screening:focus,
+.movie-bottom-screening:focus-visible {
   transition: 250ms;
   background-color: var(--black);
   color: var(--vivid-gold);
@@ -84,32 +86,32 @@
 }
 
 .movie-top-arrows {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 2rem;
-    font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .movie-top-arrow {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .movie-top-schedule {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    gap: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 5px;
 }
 
 .movie-top-info-imdb {
   padding: 0.5rem;
   border-radius: 0.25rem;
   background: linear-gradient(to right, #f3ce13, #f2e084, #f3ce13);
-  color: rgb(12,11,0);
+  color: rgb(12, 11, 0);
   font-weight: 600;
   font-size: medium;
   text-transform: none;
@@ -121,6 +123,6 @@
 .movie-top-info-imdb:active,
 .movie-top-info-imdb:visited,
 .movie-top-info-imdb:link {
-  color: rgb(12,11,0);
+  color: rgb(12, 11, 0);
   text-decoration: none;
 }

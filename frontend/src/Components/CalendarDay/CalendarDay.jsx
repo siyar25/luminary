@@ -19,6 +19,7 @@ export default function CalendarDay({
         activeDay === day ? "active-day" : ""
       }`}
       onClick={(e) => handleOnClick(e)}
+      tabIndex={0}
     >
       <div className="calendar-day">{day}</div>
       <div className="calendar-number">{number}</div>

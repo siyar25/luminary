@@ -24,11 +24,11 @@ export default function SchedulePage() {
       </div>
       <div className="section-line"></div>
       <ul className="coming-movies-types">
-        <li className="movie-type">All films</li>
-        <li className="movie-type">2D</li>
-        <li className="movie-type">3D</li>
-        <li className="movie-type">IMAX</li>
-        <li className="movie-type">IMAX 3D</li>
+        <li className="movie-type" tabIndex={0}>All films</li>
+        <li className="movie-type" tabIndex={0}>2D</li>
+        <li className="movie-type" tabIndex={0}>3D</li>
+        <li className="movie-type" tabIndex={0}>IMAX</li>
+        <li className="movie-type" tabIndex={0}>IMAX 3D</li>
       </ul>
       <div className="schedule-list">
         {movies.opening.map((movie) => {

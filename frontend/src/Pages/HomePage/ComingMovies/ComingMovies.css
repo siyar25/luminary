@@ -56,7 +56,8 @@
   position: relative;
 }
 
-.opening-week-search:focus {
+.opening-week-search:focus,
+.opening-week-search:focus-visible {
   outline: 2px solid var(--vivid-gold);
   background-color: rgb(40, 40, 40);
 }
@@ -86,7 +87,9 @@
   border: 2px solid var(--vivid-gold);
 }
 
-.movie-type:hover {
+.movie-type:hover,
+.movie-type:focus,
+.movie-type:focus-visible {
   transition: 250ms;
   background-color: var(--black);
   color: var(--vivid-gold);

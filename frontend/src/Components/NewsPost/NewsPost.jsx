@@ -13,7 +13,7 @@ export default function NewsPost({ title, author, date, content, photoSrc }) {
           </div>
           <div className="newspost-content">{content}</div>
         </div>
-        <div className="newspost-more">Read more...</div>
+        <div className="newspost-more" tabIndex={0}>Read more...</div>
       </div>
       <div className="newspost-right">
         <img

@@ -16,7 +16,7 @@ export default function TrailerModal({ movie }) {
   return (
     <dialog id="trailer-modal" className="trailerModal">
       <div className="modal-nav trailerModal">
-        <div className="modal-title trailerModal">Venom (2018)</div>
+        <div className="modal-title trailerModal">{movie.Title} ({movie.Released.slice(-4)})</div>
         <div id="modal-close" onClick={() => closeModal()}>
           X
         </div>
