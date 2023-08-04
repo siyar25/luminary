@@ -9,13 +9,13 @@ export default function NavBar() {
   return (
     <>
     <nav className='navbar'>
-      <img className='logo' src={Logo} onClick={()=>navigate("/")}/>
+      <img className='logo' src={Logo} onClick={()=>navigate("/")} tabIndex={0} alt="Logo of Luminary"/>
       <ul className="nav-elements">
         <li className="nav-element nav-point"><NavLink to={"/"}>Home</NavLink></li>
         <li className="nav-element nav-point"><NavLink to={"/schedule"}>Schedule</NavLink></li>
         <li className="nav-element nav-point"><NavLink to={"/news"}>News</NavLink></li>
         <li className="nav-element nav-point"><NavLink to={"/aboutus"}>About Us</NavLink></li>
-        <li className="nav-element" id='sign-in-btn'>Sign In</li>
+        <li className="nav-element sign-in-btn" tabIndex={0}>Sign In</li>
       </ul>
     </nav>
     <Outlet/>

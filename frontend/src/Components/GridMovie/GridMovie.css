@@ -9,6 +9,7 @@
   border-radius: 0.5rem;
   position: relative;
   z-index: 10;
+  width: 250px;
 }
 
 .grid-movie:hover {
@@ -34,6 +35,7 @@
   border-radius: 0.5rem;
   transition: 250ms;
   opacity: 0;
+
 }
 
 .grid-movie:hover::before {
@@ -93,11 +95,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
   color: gray;
   font-size: small;
+  justify-content: center;
 }
 
 .movie-genres {
   text-transform: uppercase;
 }
+

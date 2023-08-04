@@ -1,7 +1,8 @@
 import GridMovie from "../../../Components/GridMovie/GridMovie";
-import movieBG from "../../../assets/venom-movie-bg.jpg";
+import movies from "../../../assets/movies.json";
 
 export default function OpeningThisWeek() {
+
   return (
     <section className="coming-movies-section">
       <div className="subtitle">
@@ -21,76 +22,18 @@ export default function OpeningThisWeek() {
         <li className="movie-type">IMAX 3D</li>
       </ul>
       <div className="coming-movies-grid">
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2018 May 5."
-        />
-        <GridMovie
-          title="Dunkirk"
-          duration="118"
-          genres={["ACTION", "drama"]}
-          posterSrc={movieBG}
-          releaseDate="2020 August 23."
-        />
-        <GridMovie
-          title="Batman vs Superman"
-          duration="125"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2018 May 5."
-        />
-        <GridMovie
-          title="John Wick 2"
-          duration="116"
-          genres={["ACTION", "Thriller"]}
-          posterSrc={movieBG}
-          releaseDate="2018 May 5."
-        />
-        <GridMovie
-          title="Aquaman"
-          duration="120"
-          genres={["Adventure"]}
-          posterSrc={movieBG}
-          releaseDate="2018 May 5."
-        />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2018 May 5."
-        />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2018 May 5."
-        />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2018 May 5."
-        />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2018 May 5."
-        />
-        <GridMovie
-          title="Venom"
-          duration="120"
-          genres={["ACTION"]}
-          posterSrc={movieBG}
-          releaseDate="2018 May 5."
-        />
+        {movies.opening.map((movie) => {
+          return (
+            <GridMovie
+              title={movie.Title}
+              duration={movie.Runtime}
+              genres={movie.Genre}
+              posterSrc={movie.Poster}
+              imdbId={movie.imdbID}
+              key={movie.imdbID}
+            />
+          );
+        })}
       </div>
     </section>
   );

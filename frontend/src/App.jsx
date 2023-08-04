@@ -6,6 +6,7 @@ import SchedulePage from "./Pages/SchedulePage/SchedulePage";
 import Footer from "./Components/Footer/Footer";
 import NewsPage from "./Pages/NewsPage/NewsPage";
 import AboutUsPage from "./Pages/AboutUsPage/AboutUsPage";
+import MoviePage from "./Pages/MoviePage/MoviePage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/schedule" element={<SchedulePage />} />
           <Route path="/news" element={<NewsPage />} />
           <Route path="/aboutus" element={<AboutUsPage />} />
+          <Route path="/movie/:id" element={<MoviePage />} />
         </Route>
       </Routes>
       <Footer />

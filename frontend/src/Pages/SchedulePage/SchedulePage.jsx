@@ -1,6 +1,7 @@
 import "./SchedulePage.css";
 import scheduleImg from "../../assets/schedule-image.jpg";
 import ScheduleMovie from "../../Components/ScheduleMovie/ScheduleMovie";
+import movies from "../../assets/movies.json";
 
 export default function SchedulePage() {
   return (
@@ -23,18 +24,29 @@ export default function SchedulePage() {
       </div>
       <div className="section-line"></div>
       <ul className="coming-movies-types">
-        <li className="movie-type">All films</li>
-        <li className="movie-type">2D</li>
-        <li className="movie-type">3D</li>
-        <li className="movie-type">IMAX</li>
-        <li className="movie-type">IMAX 3D</li>
+        <li className="movie-type" tabIndex={0}>All films</li>
+        <li className="movie-type" tabIndex={0}>2D</li>
+        <li className="movie-type" tabIndex={0}>3D</li>
+        <li className="movie-type" tabIndex={0}>IMAX</li>
+        <li className="movie-type" tabIndex={0}>IMAX 3D</li>
       </ul>
       <div className="schedule-list">
-        <ScheduleMovie />
-        <div className="section-line" />
-        <ScheduleMovie />
-        <div className="section-line" />
-        <ScheduleMovie />
+        {movies.opening.map((movie) => {
+          return (
+            <>
+              <ScheduleMovie
+                title={movie.Title}
+                duration={movie.Runtime}
+                genres={movie.Genre}
+                posterSrc={movie.Poster}
+                rated={movie.Rated}
+                imdbRating={movie.imdbRating}
+                imdbId={movie.imdbID}
+              />
+              <div className="section-line" />
+            </>
+          );
+        })}
       </div>
     </div>
   );

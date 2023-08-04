@@ -6,17 +6,12 @@ export default function TrailerModal({ movie }) {
     trailerModal.close();
   }
 
-//   document.addEventListener("click", (e) => {
-//     const trailerModal = document.getElementById("trailer-modal");
-//     console.log(trailerModal.open);
-
-//     !e.target.classList.contains("trailerModal") && trailerModal.open ? trailerModal.close() : null;
-//   })
-
   return (
     <dialog id="trailer-modal" className="trailerModal">
       <div className="modal-nav trailerModal">
-        <div className="modal-title trailerModal">Venom (2018)</div>
+        <div className="modal-title trailerModal">
+          {movie.Title} ({movie.Released.slice(-4)})
+        </div>
         <div id="modal-close" onClick={() => closeModal()}>
           X
         </div>
@@ -24,8 +19,8 @@ export default function TrailerModal({ movie }) {
       <iframe
         width="90%"
         height="90%"
-        src="https://www.youtube.com/embed/u9Mv98Gr5pY"
-        title="VENOM - Official Trailer (HD)"
+        src={movie.Trailer.url}
+        title={movie.Trailer.title}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen

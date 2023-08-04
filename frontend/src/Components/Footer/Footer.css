@@ -1,6 +1,9 @@
 .footer {
   margin-top: 100px;
   border-top: 2px solid var(--pale-yellow);
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   background-color: #0c0c0c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

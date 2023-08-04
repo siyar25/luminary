@@ -35,6 +35,7 @@ export default function NewsPage() {
       <div className="section-line" />
 
       <NewsPost
+        id={1}
         title="Unveiling Luminary: A Grand Cinematic Experience"
         author="Siyar Farouq"
         date={date}
@@ -43,6 +44,7 @@ export default function NewsPage() {
       />
 
       <NewsPost
+        id={2}
         title="Unveiling Luminary: A Grand Cinematic Experience"
         author="Siyar Farouq"
         date={date}

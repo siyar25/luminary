@@ -12,11 +12,6 @@
   color: var(--white);
 }
 
-a:link, a:visited, a:active  {
-  color: var(--white);
-  text-decoration: none;
-}
-
 ::-webkit-scrollbar {
   width: 5px;
 }

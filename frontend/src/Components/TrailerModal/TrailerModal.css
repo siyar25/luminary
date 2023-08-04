@@ -34,6 +34,22 @@
     cursor: pointer;
     font-size: large;
     height: fit-content;
+    border: 1px solid var(--vivid-gold);
+    padding: 0.3rem;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    transition: 250ms;
+    background-color: none;
+}
+
+#modal-close:hover {
+    background-color: var(--vivid-gold);
+    color: var(--black);
+    font-weight: bold;
+    transition: 250ms;
 }
 
 .modal-title {
