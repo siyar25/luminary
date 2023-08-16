@@ -1,6 +1,6 @@
 import "./ScheduleMovie.css";
 import CalendarDay from "../CalendarDay/CalendarDay";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function ScheduleMovie({
@@ -12,6 +12,12 @@ export default function ScheduleMovie({
   imdbRating,
   imdbId,
 }) {
+  const [activeDate, setActiveDate] = useState(
+    new Date().toLocaleString("en-US", {
+      month: "long",
+      day: "2-digit",
+    })
+  );
   const [activeDay, setActiveDay] = useState(
     new Date().toLocaleString("en-us", { weekday: "long" })
   );
@@ -31,8 +37,9 @@ export default function ScheduleMovie({
     return d;
   });
 
-  function isActive(day) {
+  function isActive(day, date) {
     setActiveDay(day);
+    setActiveDate(`${date.month} ${date.day}`)
   }
 
   return (
@@ -93,53 +100,57 @@ export default function ScheduleMovie({
           <div className="movie-bottom-type" style={{ marginRight: `17%` }}>
             2D
           </div>
-          <div
+          <Link
             className="movie-bottom-screening"
             tabIndex={0}
             style={{ marginRight: "13.4%" }}
+            to={`/book/${imdbId}?time=12:00&type=2D&date=${activeDate}`}
           >
             12:00
-          </div>
-          <div
+          </Link>
+          <Link
             className="movie-bottom-screening"
             tabIndex={0}
             style={{ marginRight: "12%" }}
+            to={`/book/${imdbId}?time=15:15&type=2D&date=${activeDate}`}
           >
             15:15
-          </div>
-          <div
+          </Link>
+          <Link
             className="movie-bottom-screening"
             tabIndex={0}
             style={{ marginRight: "30%" }}
+            to={`/book/${imdbId}?time=17:15&type=2D&date=${activeDate}`}
           >
             17:15
-          </div>
-          <div className="movie-bottom-screening" tabIndex={0}>
+          </Link>
+          <Link className="movie-bottom-screening" tabIndex={0} to={`/book/${imdbId}?time=22:00&type=2D&date=${activeDate}`}>
             22:00
-          </div>
+          </Link>
         </div>
         <div className="movie-bottom-row">
           <div className="movie-bottom-type" style={{ marginRight: `35%` }}>
             3D
           </div>
-          <div className="movie-bottom-screening" tabIndex={0}>
+          <Link className="movie-bottom-screening" tabIndex={0} to={`/book/${imdbId}?time=15:00&type=3D&date=${activeDate}`}>
             15:00
-          </div>
+          </Link>
         </div>
         <div className="movie-bottom-row">
           <div className="movie-bottom-type" style={{ marginRight: `48%` }}>
             IMAX 2D
           </div>
-          <div
+          <Link
             className="movie-bottom-screening"
             tabIndex={0}
             style={{ marginRight: `25%` }}
+            to={`/book/${imdbId}?time=17:00&type=IMAX_2D&date=${activeDate}`}
           >
             17:00
-          </div>
-          <div className="movie-bottom-screening" tabIndex={0}>
+          </Link>
+          <Link className="movie-bottom-screening" tabIndex={0} to={`/book/${imdbId}?time=21:00&type=IMAX_2D&date=${activeDate}`}>
             21:00
-          </div>
+          </Link>
         </div>
       </div>
     </div>

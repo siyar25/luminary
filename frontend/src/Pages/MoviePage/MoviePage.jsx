@@ -35,6 +35,8 @@ export default function MoviePage() {
       <div className="movie-page-title">
         {movie?.Title} ({movie?.Released.slice(-4)})
       </div>
+      <div className="section-line"></div>
+
 
       <ScheduleMovie
         title={movie?.Title}

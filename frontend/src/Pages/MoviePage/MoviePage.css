@@ -78,3 +78,10 @@
     font-weight: bold;
     text-align: center;
 }
+
+.movie-page a:link,
+.movie-page a:visited,
+.movie-page a:active {
+  color: var(--black);
+  text-decoration: none;
+}

@@ -8,9 +8,11 @@ export default function CalendarDay({
   isActive,
   activeDay,
 }) {
-
   function handleOnClick(e) {
-    isActive(day);
+    isActive(
+      day,
+      {day: number, month: month}
+    );
   }
 
   return (

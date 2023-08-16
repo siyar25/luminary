@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import NewsPage from "./Pages/NewsPage/NewsPage";
 import AboutUsPage from "./Pages/AboutUsPage/AboutUsPage";
 import MoviePage from "./Pages/MoviePage/MoviePage";
+import BookingPage from "./Pages/BookingPage/BookingPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/news" element={<NewsPage />} />
           <Route path="/aboutus" element={<AboutUsPage />} />
           <Route path="/movie/:id" element={<MoviePage />} />
+          <Route path="/book/:id" element={<BookingPage />} />
         </Route>
       </Routes>
       <Footer />

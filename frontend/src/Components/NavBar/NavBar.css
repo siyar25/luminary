@@ -125,9 +125,9 @@ a:focus-visible::before {
     transform: scale(105%);
 } */
 
-a:link,
-a:visited,
-a:active {
+.navbar a:link,
+.navbar a:visited,
+.navbar a:active {
   color: var(--white);
   text-decoration: none;
 }
