@@ -4,7 +4,12 @@
 
 ## Overview
 
-**Luminary** is a passion project born out of a deep love for cinema and the magic of movies. It's an imaginary cinema brought to life through an eye-candy, user-friendly, and intuitive website design. At Luminary, every visitor is a VIP, welcomed into an exclusive world of elegance, brilliance, and cinematic enchantment. Join us, and let's share the love of cinema at Luminary, where every visit is a journey into the heart of storytelling and a celebration of our Luminary family. Welcome to the world of Luminary, where the cinema experience shines brightly.
+**Luminary** is a passion project born out of a deep love for cinema and the magic of movies. It's an imaginary cinema brought to life through an eye-candy, user-friendly, and intuitive website design.
+
+At Luminary, every visitor is a VIP, welcomed into an exclusive world of elegance, brilliance, and cinematic enchantment.\
+Join us, and let's share the love of cinema at Luminary, where every visit is a journey into the heart of storytelling and a celebration of our Luminary family.
+
+**Welcome to the world of Luminary, where the cinema experience shines brightly.**
 
 ## Table of Contents
 
@@ -83,6 +88,7 @@ Luminary offers a complete cinematic experience, from exploration to booking, al
   <a href="./frontend/src/assets/screenshots/login.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/login.png" alt="Login modal" style="width: 45%; margin-bottom: 15px;">
   </a>
+  <hr>
  <a href="./frontend/src/assets/screenshots/bookingpage.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/bookingpage.png" alt="Booking page" style="width: 100%; margin-bottom: 15px;">
   </a>
