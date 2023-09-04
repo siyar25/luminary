@@ -52,31 +52,31 @@ Luminary offers a complete cinematic experience, from exploration to booking, al
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <a href="./frontend/src/assets/screenshots/homepage-top.png" target="_blank">
+  <a href="./frontend/src/assets/screenshots/homepage-top.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/homepage-top.png" alt="Top of the home page" style="width: 30%; margin-bottom: 10px;">
   </a>
-  <a href="./frontend/src/assets/screenshots/homepage-opening.png" target="_blank">
+  <a href="./frontend/src/assets/screenshots/homepage-opening.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/homepage-opening.png" alt="Home page and the current top movies" style="width: 30%; margin-bottom: 10px;">
   </a>
-  <a href="./frontend/src/assets/screenshots/homepage-coming.png" target="_blank">
+  <a href="./frontend/src/assets/screenshots/homepage-coming.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/homepage-coming.png" alt="Home page and the upcoming movies" style="width: 30%; margin-bottom: 10px;">
   </a>
-  <a href="./frontend/src/assets/screenshots/schedulepage.png" target="_blank">
+  <a href="./frontend/src/assets/screenshots/schedulepage.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/schedulepage.png" alt="Schedule page" style="width: 30%; margin-bottom: 10px;">
   </a>
-  <a href="./frontend/src/assets/screenshots/newspage.png" target="_blank">
+  <a href="./frontend/src/assets/screenshots/newspage.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/newspage.png" alt="News Page" style="width: 30%; margin-bottom: 10px;">
   </a>
-  <a href="./frontend/src/assets/screenshots/aboutuspage.png" target="_blank">
+  <a href="./frontend/src/assets/screenshots/aboutuspage.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/aboutuspage.png" alt="About Us Page" style="width: 30%; margin-bottom: 10px;">
   </a>
-  <a href="./frontend/src/assets/screenshots/moviepage.png" target="_blank">
+  <a href="./frontend/src/assets/screenshots/moviepage.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/moviepage.png" alt="Movie page" style="width: 30%; margin-bottom: 10px;">
   </a>
-  <a href="./frontend/src/assets/screenshots/moviepage-info.png" target="_blank">
+  <a href="./frontend/src/assets/screenshots/moviepage-info.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/moviepage-info.png" alt="Movie page and information about the movie" style="width: 30%; margin-bottom: 10px;">
   </a>
-  <a href="./frontend/src/assets/screenshots/login.png" target="_blank">
+  <a href="./frontend/src/assets/screenshots/login.png?raw=true" target="_blank">
     <img src="./frontend/src/assets/screenshots/login.png" alt="Login modal" style="width: 30%; margin-bottom: 10px;">
   </a>
 
