@@ -7,6 +7,7 @@
 **Luminary** is a passion project born out of a deep love for cinema and the magic of movies. It's an imaginary cinema brought to life through an eye-candy, user-friendly, and intuitive website design. At Luminary, every visitor is a VIP, welcomed into an exclusive world of elegance, brilliance, and cinematic enchantment. Join us, and let's share the love of cinema at Luminary, where every visit is a journey into the heart of storytelling and a celebration of our Luminary family. Welcome to the world of Luminary, where the cinema experience shines brightly.
 
 ## Table of Contents
+
 - [Luminary Cinema](#luminary-cinema)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
@@ -15,7 +16,6 @@
   - [Technologies Used](#technologies-used)
   - [Prerequisites](#prerequisites)
   - [Setup Instructions](#setup-instructions)
-    - [\*_A single batch file for setup is in progress..._](#a-single-batch-file-for-setup-is-in-progress)
   - [Limitations](#limitations)
   - [Future Improvements](#future-improvements)
 
@@ -149,12 +149,12 @@ Follow these steps to set up the Luminary Cinema project on your local developme
    - You'll need to set environment variables for database integration.
    - Open the `application.properties` file (`backend/src/main/resources/application.properties`)
    - Change the `${DB_DATABASE}`, `${DB_USER}` and `${DB_PASSWORD}` variables with your database's name, your PostgreSQL username and password:
-       ```properties
-       #Database settings:
-       spring.datasource.url=jdbc:postgresql://localhost:5432/${DB_DATABASE}
-       spring.datasource.username=${DB_USER}
-       spring.datasource.password=${DB_PASSWORD}
-       ```
+     ```properties
+     #Database settings:
+     spring.datasource.url=jdbc:postgresql://localhost:5432/${DB_DATABASE}
+     spring.datasource.username=${DB_USER}
+     spring.datasource.password=${DB_PASSWORD}
+     ```
    - Or add them to the Spring Environment variables with the same keys
 
 5. **Backend Setup**:
@@ -177,7 +177,7 @@ Follow these steps to set up the Luminary Cinema project on your local developme
    - Ensure you have **PostgreSQL** installed and running on your system.
    - Create a database that matches the value of `DB_DATABASE` in your backend's environment configuration. By default, it's set to 'luminary'.
 
-### *_A single batch file for setup is in progress..._
+7. **_A single batch file for setup is in progress..._**
 
 ## Limitations
 
@@ -186,7 +186,6 @@ The Luminary Cinema project offers a user-friendly cinema experience, but it doe
 - **Limited Movie Data**: The project relies on a static JSON file to provide information about movies. While it contains data for 24 movies, it may not always reflect the most up-to-date information about current top movies. Additionally, some movies listed in the "current top movies" section may not be the latest releases, and movies in the "coming soon" section may already be released. Future improvements aim to create a more extensive and up-to-date API for movie information.
 
 These limitations are considered in the context of the project's current state, and there are plans for future enhancements to address them and provide an even more comprehensive cinema experience.
-
 
 ## Future Improvements
 
@@ -207,4 +206,3 @@ These future improvements will contribute to making Luminary Cinema an even more
 ---
 
 **Luminary Cinema** is a showcase of some of my skills and a testament to my passion for cinema, movies and developing. I hope you find it interesting and valuable. Thank you for checking it out!
-
