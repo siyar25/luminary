@@ -31,7 +31,7 @@
 
 - 🎬 **Detailed Movie Pages**: Each movie has its own dedicated page, complete with a trailer, title, duration, language, and comprehensive information. Dive into the world of the film, explore its cast, read a short summary, discover its awards, and check screening times.
 
-- 📆**Comprehensive Schedule**: The Schedule page provides a complete overview of all movie screenings, making it easy to plan your cinematic adventures.
+- 📆 **Comprehensive Schedule**: The Schedule page provides a complete overview of all movie screenings, making it easy to plan your cinematic adventures.
 
 - 📰 **Latest News**: Stay informed with the News page, where you can find the latest updates and news related to movies and Luminary Cinema itself.
 
