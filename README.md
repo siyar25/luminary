@@ -218,3 +218,5 @@ These future improvements will contribute to making Luminary Cinema an even more
 ---
 
 > **Luminary Cinema** is a showcase of some of my skills and a testament to my passion for cinema, movies and developing. I hope you find it interesting and valuable. Thank you for checking it out!
+
+[Back to the top](#luminary-cinema)
