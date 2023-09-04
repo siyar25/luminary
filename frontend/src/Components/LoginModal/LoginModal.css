@@ -1,35 +1,39 @@
-#trailer-modal[open] {
+.login-modal[open] {
     position: fixed;
     top: 0;
-    bottom: 0;
-    right: 0;
     left: 0;
     margin: auto;
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     border-radius: 0.5rem;
     border: solid 3px var(--vivid-gold);
     background-color: var(--black);
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    flex-direction: row;
     overflow: hidden;
     transition: 250ms;
-    padding: 2rem;
+    padding: 0;
+    box-shadow: 0px 5px 25px black;
 }
 
-#trailer-modal::backdrop {
+.login-modal::backdrop {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-nav {
+.login-modal .sign-in {
+    background-color: var(--black);
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+    flex-direction: column;
+    color: var(--white);
 }
 
-#modal-close {
+.login-modal .register {
+    background-color: var(--vivid-gold);
+    width: 50%;
+}
+
+.login-modal-close {
     color: var(--white);
     cursor: pointer;
     font-size: large;
@@ -45,19 +49,9 @@
     background-color: none;
 }
 
-#modal-close:hover {
+.login-modal-close:hover {
     background-color: var(--vivid-gold);
     color: var(--black);
     font-weight: bold;
     transition: 250ms;
-}
-
-.modal-title {
-    color: var(--white);
-    font-size: 2.8rem;
-    font-weight: bold;
-}
-
-.modal-video {
-    align-self: center;
 }

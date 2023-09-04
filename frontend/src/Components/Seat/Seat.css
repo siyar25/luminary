@@ -1,0 +1,18 @@
+.seat {
+    width: 8vw;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    font-size: xx-large;
+    transition: 250ms;
+    border: 1px solid transparent;
+}
+
+.seat:hover {
+    /* filter: brightness(125%); */
+    transition: 250ms;
+    border: 1px solid var(--vivid-gold);
+}

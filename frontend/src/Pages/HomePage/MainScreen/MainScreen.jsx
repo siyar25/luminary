@@ -14,13 +14,36 @@ import instagramIcon from "../../../assets/social-media/instagram-icon.png";
 import "./MainScreen.css";
 import TrailerModal from "../../../Components/TrailerModal/TrailerModal";
 import movies from "../../../assets/movies.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function MainScreen() {
   const [activeMovie, setActiveMovie] = useState(1);
+  const [activeImdbId, setActiveImdbId] = useState();
+
+useEffect(()=> {
+  setActiveImdbId(
+    activeMovie === 1
+    ? venom.imdbID
+    : activeMovie === 2
+    ? avengers.imdbID
+    : activeMovie === 3
+    ? inception.imdbID
+    : activeMovie === 4
+    ? wallE.imdbID
+    : pulpFiction.imdbID
+  )
+}, [activeMovie])
+
+  
+
   const today = new Date().toLocaleString("en-US", {
     year: "numeric",
     month: "short",
+    day: "2-digit",
+  });
+  const todayNoYear = new Date().toLocaleString("en-US", {
+    month: "long",
     day: "2-digit",
   });
   const venom = movies.opening[0];
@@ -123,11 +146,11 @@ export default function MainScreen() {
             )}
           </div>
           <div className="booking">
-            <div className="book-now-btn" tabIndex={0}>
+            <Link style={{color: "var(--black)"}} className="book-now-btn" tabIndex={0} to={`/book/${activeImdbId}?time=17:00&type=IMAX_2D&date=${todayNoYear}`}>
               Book Now
-            </div>
+            </Link>
             <div className="book-now-info">
-              <div className="book-now-date">{today}</div>
+              <div className="book-now-date">{today} 17:00</div>
               <div className="book-now-movietype">IMAX 2D</div>
             </div>
           </div>
