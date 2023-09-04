@@ -21,31 +21,31 @@
 
 ## Features
 
-- **Elegant and Responsive Design**: Luminary boasts a well-designed, eye-catching, and responsive interface that exudes exclusivity and elegance. The website's aesthetic invites users into a world of cinematic luxury.
+- ✨ **Elegant and Responsive Design**: Luminary boasts a well-designed, eye-catching, and responsive interface that exudes exclusivity and elegance. The website's aesthetic invites users into a world of cinematic luxury.
 
-- **Discover Currently Screening Movies**: Explore the latest movies currently screening, providing you with an up-to-date selection of cinematic offerings at the time of project creation.
+- 🎥 **Discover Currently Screening Movies**: Explore the latest movies currently screening, providing you with an [**](#limitations)up-to-date selection of cinematic offerings at the time of project creation.
 
-- **Preview Upcoming Releases**: Get a sneak peek at upcoming movies that were on the horizon when the project was created, giving you a glimpse into the future of cinema.
+- 🚀 **Preview Upcoming Releases**: Get a sneak peek at upcoming movies that were on the horizon when the project was created, giving you a glimpse into the future of cinema.
 
-- **Instant Booking**: On the homepage, slide through top movies and enjoy an instant ticket booking experience. With a single click, find the closest available screening and watch the trailer before booking your seat.
+- 🎫 **Instant Booking**: On the homepage, slide through top movies and enjoy an instant ticket booking experience. With a single click, find the closest available screening and watch the trailer before booking your seat.
 
-- **Detailed Movie Pages**: Each movie has its own dedicated page, complete with a trailer, title, duration, language, and comprehensive information. Dive into the world of the film, explore its cast, read a short summary, discover its awards, and check screening times.
+- 🎬 **Detailed Movie Pages**: Each movie has its own dedicated page, complete with a trailer, title, duration, language, and comprehensive information. Dive into the world of the film, explore its cast, read a short summary, discover its awards, and check screening times.
 
-- **Comprehensive Schedule**: The Schedule page provides a complete overview of all movie screenings, making it easy to plan your cinematic adventures.
+- 📆**Comprehensive Schedule**: The Schedule page provides a complete overview of all movie screenings, making it easy to plan your cinematic adventures.
 
-- **Latest News**: Stay informed with the News page, where you can find the latest updates and news related to movies and Luminary Cinema itself.
+- 📰 **Latest News**: Stay informed with the News page, where you can find the latest updates and news related to movies and Luminary Cinema itself.
 
-- **About Us**: Learn more about Luminary Cinema through the About Us page, which provides a concise summary of our cinematic mission.
+- ⭐ **About Us**: Learn more about Luminary Cinema through the About Us page, which provides a concise summary of our cinematic mission.
 
-- **Seamless Booking Process**: When you select a movie's screening time, the booking page seamlessly guides you through seat selection. Real-time seat availability and the total price of selected seats are displayed for your convenience.
+- 💳 **Seamless Booking Process**: When you select a movie's screening time, the booking page seamlessly guides you through seat selection. Real-time seat availability and the total price of selected seats are displayed for your convenience.
 
-- **Email Confirmation**: After selecting your seats and providing necessary information, an email confirmation with your ticket(s) will be sent to you (implementation pending). Future improvements will include email notifications and the option to reserve seats for later payment.
+- 📧 **Email Confirmation**: After selecting your seats and providing necessary information, an email confirmation with your ticket(s) will be sent to you (implementation pending). Future improvements will include email notifications and the option to reserve seats for later payment.
 
-- **Database Integration**: All reservations and purchased tickets are securely stored in the system's database.
+- 💼 **Database Integration**: All reservations and purchased tickets are securely stored in the system's database.
 
-- **User Accounts**: Registration and login options are available for users. Having an account streamlines the ticket purchasing process, as your information is automatically filled in.
+- 👤 **User Accounts**: Registration and login options are available for users. Having an account streamlines the ticket purchasing process, as your information is automatically filled in.
 
-- **Future Improvements**: The project roadmap includes plans for future enhancements such as differently priced tickets for various demographics, credit card integration, email notifications, and monthly newsletters with the latest news posts.
+- 📈 **Future Improvements**: The project roadmap includes plans for future enhancements such as differently priced tickets for various demographics, credit card integration, email notifications, and monthly newsletters with the latest news posts.
 
 Luminary offers a complete cinematic experience, from exploration to booking, all within an elegantly designed digital space.
 
@@ -53,33 +53,35 @@ Luminary offers a complete cinematic experience, from exploration to booking, al
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <a href="./frontend/src/assets/screenshots/homepage-top.png?raw=true" target="_blank">
-    <img src="./frontend/src/assets/screenshots/homepage-top.png" alt="Top of the home page" style="width: 30%; margin-bottom: 10px;">
+    <img src="./frontend/src/assets/screenshots/homepage-top.png" alt="Top of the home page" style="width: 100%; margin-bottom: 15px;">
   </a>
   <a href="./frontend/src/assets/screenshots/homepage-opening.png?raw=true" target="_blank">
-    <img src="./frontend/src/assets/screenshots/homepage-opening.png" alt="Home page and the current top movies" style="width: 30%; margin-bottom: 10px;">
+    <img src="./frontend/src/assets/screenshots/homepage-opening.png" alt="Home page and the current top movies" style="width: 45%; margin-bottom: 15px;">
   </a>
   <a href="./frontend/src/assets/screenshots/homepage-coming.png?raw=true" target="_blank">
-    <img src="./frontend/src/assets/screenshots/homepage-coming.png" alt="Home page and the upcoming movies" style="width: 30%; margin-bottom: 10px;">
+    <img src="./frontend/src/assets/screenshots/homepage-coming.png" alt="Home page and the upcoming movies" style="width: 45%; margin-bottom: 15px;">
   </a>
   <a href="./frontend/src/assets/screenshots/schedulepage.png?raw=true" target="_blank">
-    <img src="./frontend/src/assets/screenshots/schedulepage.png" alt="Schedule page" style="width: 30%; margin-bottom: 10px;">
+    <img src="./frontend/src/assets/screenshots/schedulepage.png" alt="Schedule page" style="width: 45%; margin-bottom: 15px;">
   </a>
   <a href="./frontend/src/assets/screenshots/newspage.png?raw=true" target="_blank">
-    <img src="./frontend/src/assets/screenshots/newspage.png" alt="News Page" style="width: 30%; margin-bottom: 10px;">
+    <img src="./frontend/src/assets/screenshots/newspage.png" alt="News Page" style="width: 45%; margin-bottom: 15px;">
   </a>
   <a href="./frontend/src/assets/screenshots/aboutuspage.png?raw=true" target="_blank">
-    <img src="./frontend/src/assets/screenshots/aboutuspage.png" alt="About Us Page" style="width: 30%; margin-bottom: 10px;">
+    <img src="./frontend/src/assets/screenshots/aboutuspage.png" alt="About Us Page" style="width: 45%; margin-bottom: 15px;">
   </a>
   <a href="./frontend/src/assets/screenshots/moviepage.png?raw=true" target="_blank">
-    <img src="./frontend/src/assets/screenshots/moviepage.png" alt="Movie page" style="width: 30%; margin-bottom: 10px;">
+    <img src="./frontend/src/assets/screenshots/moviepage.png" alt="Movie page" style="width: 45%; margin-bottom: 15px;">
   </a>
   <a href="./frontend/src/assets/screenshots/moviepage-info.png?raw=true" target="_blank">
-    <img src="./frontend/src/assets/screenshots/moviepage-info.png" alt="Movie page and information about the movie" style="width: 30%; margin-bottom: 10px;">
+    <img src="./frontend/src/assets/screenshots/moviepage-info.png" alt="Movie page and information about the movie" style="width: 45%; margin-bottom: 15px;">
   </a>
   <a href="./frontend/src/assets/screenshots/login.png?raw=true" target="_blank">
-    <img src="./frontend/src/assets/screenshots/login.png" alt="Login modal" style="width: 30%; margin-bottom: 10px;">
+    <img src="./frontend/src/assets/screenshots/login.png" alt="Login modal" style="width: 45%; margin-bottom: 15px;">
   </a>
-
+ <a href="./frontend/src/assets/screenshots/bookingpage.png?raw=true" target="_blank">
+    <img src="./frontend/src/assets/screenshots/bookingpage.png" alt="Booking page" style="width: 100%; margin-bottom: 15px;">
+  </a>
 </div>
 
 ## Technologies Used
@@ -191,18 +193,18 @@ These limitations are considered in the context of the project's current state, 
 
 The Luminary Cinema project is an ongoing endeavor, and there are several planned improvements to enhance its features and user experience:
 
-- **Dynamic Movie Data**: Implement a dynamic movie data source or API to ensure that information about current top movies is always up-to-date. This improvement aims to provide users with the most accurate and timely movie details.
+- 🔄 **Dynamic Movie Data**: Implement a dynamic movie data source or API to ensure that information about current top movies is always up-to-date. This improvement aims to provide users with the most accurate and timely movie details.
 
-- **Differently Priced Tickets**: Introduce a ticket pricing system that accounts for different user categories, such as students, elderly individuals, and children. This feature will offer users more flexibility in ticket selection.
+- 💲 **Differently Priced Tickets**: Introduce a ticket pricing system that accounts for different user categories, such as students, elderly individuals, and children. This feature will offer users more flexibility in ticket selection.
 
-- **Email Confirmations**: Implement an email confirmation system to send users confirmation emails and e-tickets upon completing a ticket purchase or reservation. This enhancement will improve the overall booking experience.
+- ✅ **Email Confirmations**: Implement an email confirmation system to send users confirmation emails and e-tickets upon completing a ticket purchase or reservation. This enhancement will improve the overall booking experience.
 
-- **Payment Integration**: Enable payment processing by allowing users to enter credit card information for ticket purchases. This feature will streamline the checkout process and offer a more comprehensive ticketing system.
+- 💳 **Payment Integration**: Enable payment processing by allowing users to enter credit card information for ticket purchases. This feature will streamline the checkout process and offer a more comprehensive ticketing system.
 
-- **Newsletter Sign up**: Add a newsletter subscription option, allowing users to sign up for monthly newsletters. These newsletters will include the latest news posts from the "News" page, providing users with valuable cinema-related updates.
+- 📬 **Newsletter Sign up**: Add a newsletter subscription option, allowing users to sign up for monthly newsletters. These newsletters will include the latest news posts from the "News" page, providing users with valuable cinema-related updates.
 
 These future improvements will contribute to making Luminary Cinema an even more captivating and user-friendly platform for cinema enthusiasts.
 
 ---
 
-**Luminary Cinema** is a showcase of some of my skills and a testament to my passion for cinema, movies and developing. I hope you find it interesting and valuable. Thank you for checking it out!
+> **Luminary Cinema** is a showcase of some of my skills and a testament to my passion for cinema, movies and developing. I hope you find it interesting and valuable. Thank you for checking it out!
