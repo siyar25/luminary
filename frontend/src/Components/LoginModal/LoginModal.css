@@ -1,57 +1,280 @@
 .login-modal[open] {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: auto;
-    width: 50%;
-    height: 50%;
-    border-radius: 0.5rem;
-    border: solid 3px var(--vivid-gold);
-    background-color: var(--black);
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    transition: 250ms;
-    padding: 0;
-    box-shadow: 0px 5px 25px black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 0.5rem;
+  border: solid 3px var(--vivid-gold);
+  background-color: var(--black);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  transition: 250ms;
+  padding: 0;
+  box-shadow: 0px 5px 25px black;
+  animation: openModal 400ms;
 }
 
 .login-modal::backdrop {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .login-modal .sign-in {
-    background-color: var(--black);
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    color: var(--white);
+  background-color: var(--black);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.login-modal .sign-in .title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.login-modal .sign-in .login-types {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.login-type {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--vivid-gold);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.login-type:hover {
+  background-color: var(--vivid-gold);
+  color: var(--black);
+  transition: 250ms;
+}
+
+.sign-in-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.forgot {
+  align-self: center;
+  cursor: pointer;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.sign-in-form input {
+  height: 2rem;
+  padding-left: 1ch;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--gray);
+  border-radius: 0.25rem;
+  color: var(--gray);
+}
+
+.sign-in-form input:focus,
+.sign-in-form input:focus-visible {
+  outline: 2px solid var(--vivid-gold);
+  background-color: rgb(40, 40, 40);
+}
+
+.sign-in-form button {
+  width: max-content;
+  align-self: center;
+  padding: 0.75rem 2rem;
+  background-color: var(--vivid-gold);
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 250ms;
+  border: solid 2px var(--vivid-gold);
+  color: var(--black);
+}
+
+.sign-in-form button:hover {
+  background-color: var(--black);
+  color: var(--vivid-gold);
+  transition: all 250ms;
 }
 
 .login-modal .register {
-    background-color: var(--vivid-gold);
-    width: 50%;
+  background-color: var(--vivid-gold);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: var(--black);
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.register .title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.register button {
+  width: 50%;
+  align-self: center;
+  padding: 0.75rem 2rem;
+  background-color: var(--black);
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 250ms;
+  border: solid 2px var(--black);
+  color: var(--vivid-gold);
+}
+
+.register button:hover {
+  background-color: var(--vivid-gold);
+  color: var(--black);
+  transition: all 250ms;
+}
+
+.login-modal .registration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--vivid-gold);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: var(--black);
+  box-sizing: border-box;
+  padding: 2rem;
+  transition: 250ms;
+  transform: scaleX(0);
+  visibility: hidden;
+}
+
+.login-modal .registration.active {
+  transition: 250ms;
+  visibility: visible;
+  transform: scaleX(1);
+ 
+}
+
+.registration input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-right: 1ch;
+  filter: invert(1);
+}
+
+.registration .title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.registration form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.registration form input {
+  flex: 40%;
+  height: 2rem;
+  padding-left: 1ch;
+  background-color: var(--black);
+  border: 1px solid var(--gray);
+  border-radius: 0.25rem;
+  color: var(--white);
 }
 
 .login-modal-close {
-    color: var(--white);
-    cursor: pointer;
-    font-size: large;
-    height: fit-content;
-    border: 1px solid var(--vivid-gold);
-    padding: 0.3rem;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    line-height: 25px;
-    transition: 250ms;
-    background-color: none;
+  color: var(--black);
+  cursor: pointer;
+  font-size: large;
+  height: fit-content;
+  border: 1px solid var(--black);
+  padding: 0.3rem;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  transition: 250ms;
+  background-color: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .login-modal-close:hover {
-    background-color: var(--vivid-gold);
-    color: var(--black);
-    font-weight: bold;
-    transition: 250ms;
+  background-color: var(--black);
+  color: var(--vivid-gold);
+  font-weight: bold;
+  transition: 250ms;
+}
+
+.login-modal-back {
+  color: var(--black);
+  cursor: pointer;
+  font-size: large;
+  height: fit-content;
+  border: 1px solid var(--black);
+  padding: 0.3rem;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  transition: 250ms;
+  background-color: none;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.login-modal-back:hover {
+  background-color: var(--black);
+  color: var(--vivid-gold);
+  font-weight: bold;
+  transition: 250ms;
+}
+
+@keyframes openModal {
+  0% {
+    transform: scaleX(0);
+    translate: -50%;
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
 }

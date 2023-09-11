@@ -1,5 +1,5 @@
 .newsModal[open] {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
@@ -17,6 +17,7 @@
     transform: 250ms;
     padding: 3rem;
     color: var(--white);
+    animation: openNewsModal 500ms;
 }
 
 .newsModal::backdrop {
@@ -85,3 +86,13 @@
     gap: 1rem;
     line-height: 1.8rem;
 }
+
+@keyframes openNewsModal {
+    0% {
+      scale: 0;
+    }
+  
+    100% {
+      scale: 1;
+    }
+  }

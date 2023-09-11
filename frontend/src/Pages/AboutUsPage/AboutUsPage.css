@@ -4,6 +4,7 @@
   height: 100%;
   padding: 30% 4rem 1rem 4rem;
   gap: 2rem;
+  animation: transition 500ms;
 }
 
 .aboutus-title {
@@ -48,14 +49,11 @@
   /* max-height: 40vh; */
   max-width: 40vw;
   border: 2px solid var(--vivid-gold);
-  box-shadow: 0px 1px 2px var(--vivid-gold), 
-              0px 2px 4px var(--vivid-gold), 
-              0px 4px 8px var(--vivid-gold), 
-              0px 8px 16px var(--vivid-gold);
+  box-shadow: 0px 1px 2px var(--vivid-gold), 0px 2px 4px var(--vivid-gold),
+    0px 4px 8px var(--vivid-gold), 0px 8px 16px var(--vivid-gold);
 }
 
 .paragraph-luminary {
   max-width: 30vw;
-  padding: 2rem
+  padding: 2rem;
 }
-

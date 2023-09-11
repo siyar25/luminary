@@ -24,7 +24,7 @@ export default function NewsPage() {
       <img
         alt="Cinema press conference"
         src={NewsImage}
-        className="schedule-image"
+        className="cover-image"
       />
 
       <div className="subtitle">

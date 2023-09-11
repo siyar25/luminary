@@ -9,7 +9,7 @@ export default function SchedulePage() {
       <img
         alt="People watching cinema screen"
         src={scheduleImg}
-        className="schedule-image"
+        className="cover-image"
       />
 
       <div className="subtitle">

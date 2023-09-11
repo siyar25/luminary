@@ -13,7 +13,7 @@ export default function AboutUsPage() {
       <img
         alt="Stars in the dark sky"
         src={AboutUsImage}
-        className="schedule-image"
+        className="cover-image"
       />
 
       <div className="subtitle">

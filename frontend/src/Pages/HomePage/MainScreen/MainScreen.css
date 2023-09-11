@@ -38,6 +38,7 @@
 
 .movie-title-logo {
   width: 400px;
+  animation: transition 500ms;
 }
 
 .movie-title-logo-div {
@@ -98,20 +99,6 @@
   align-items: center;
   align-self: start;
   padding: 0;
-}
-
-.social-app {
-  filter: invert(1) brightness(50%);
-  height: 35px;
-  width: 35px;
-  margin-right: 1rem;
-  cursor: pointer;
-  transition: 250ms;
-}
-
-.social-app:hover {
-  transition: 250ms;
-  filter: invert(1) brightness(100%);
 }
 
 .right-side {

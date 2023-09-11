@@ -4,6 +4,7 @@
   height: 100%;
   padding: 110vh 4rem 1rem 4rem;
   gap: 5rem;
+  animation: transition 500ms;
 }
 
 .movie-page-trailer {
@@ -14,74 +15,84 @@
 }
 
 .movie-page-section {
-    display: flex;
-    flex-direction: column;
-    font-family: "Work Sans";
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Work Sans";
+  gap: 1rem;
 }
 
 .movie-page-section .titles {
-    display: flex;
-    flex-direction: row;
-    font-weight: bold;
-    font-size: x-large;
-    text-transform: uppercase;
-    /* justify-content: space-between; */
-    align-items: center;
-    /* margin-bottom: 0.75rem; */
-    gap: 10%;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: x-large;
+  text-transform: uppercase;
+  align-items: center;
+  gap: 10%;
 }
 
 .titles .title {
-    width: 40%;
+  width: 40%;
 }
 
 .movie-page-section .inner-sections {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    gap: 10%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
 }
 
 .inner-sections .details {
-    display: flex;
-    flex-direction: column;
-    text-transform: uppercase;
-    width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  width: 40%;
 }
 
 .inner-sections .plot {
-    font-size: x-large;
-    width: 40%;
-    /* text-align: right; */
+  font-size: x-large;
+  width: 40%;
 }
 
 .details .detail {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid gray;
-    padding: 0.75rem 0;
-    gap: 20%;
-    text-align: right;
-    font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 0.75rem 0;
+  gap: 20%;
+  text-align: right;
+  font-size: x-large;
 }
 
 .detail-value {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .movie-page-title {
-    font-size: 5rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
+
+/* .movie-bottom-screening:hover {
+  transition: 250ms;
+  background-color: var(--black);
+  color: var(--vivid-gold);
+  border: 1px solid var(--vivid-gold);
+} */
 
 .movie-page a:link,
 .movie-page a:visited,
 .movie-page a:active {
   color: var(--black);
+  text-decoration: none;
+}
+
+.movie-page a:link:hover,
+.movie-page a:visited:hover,
+.movie-page a:active:hover {
+  color: var(--vivid-gold);
   text-decoration: none;
 }

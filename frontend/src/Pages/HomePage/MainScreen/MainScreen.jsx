@@ -21,21 +21,19 @@ export default function MainScreen() {
   const [activeMovie, setActiveMovie] = useState(1);
   const [activeImdbId, setActiveImdbId] = useState();
 
-useEffect(()=> {
-  setActiveImdbId(
-    activeMovie === 1
-    ? venom.imdbID
-    : activeMovie === 2
-    ? avengers.imdbID
-    : activeMovie === 3
-    ? inception.imdbID
-    : activeMovie === 4
-    ? wallE.imdbID
-    : pulpFiction.imdbID
-  )
-}, [activeMovie])
-
-  
+  useEffect(() => {
+    setActiveImdbId(
+      activeMovie === 1
+        ? venom.imdbID
+        : activeMovie === 2
+        ? avengers.imdbID
+        : activeMovie === 3
+        ? inception.imdbID
+        : activeMovie === 4
+        ? wallE.imdbID
+        : pulpFiction.imdbID
+    );
+  }, [activeMovie]);
 
   const today = new Date().toLocaleString("en-US", {
     year: "numeric",
@@ -93,42 +91,36 @@ useEffect(()=> {
         }
       />
       <div className="slides">
-        {activeMovie === 1 ? (
-          <div
-            id="slide-1"
-            style={{ display: activeMovie === 1 ? "" : "none" }}
-          >
-            <img alt="movie-poster" src={movieBG} className="mainscreen-bg" />
-          </div>
-        ) : activeMovie === 2 ? (
-          <div
-            id="slide-2"
-            style={{ display: activeMovie === 2 ? "" : "none" }}
-          >
-            <img alt="movie-poster" src={screen2} className="mainscreen-bg" />
-          </div>
-        ) : activeMovie === 3 ? (
-          <div
-            id="slide-3"
-            style={{ display: activeMovie === 3 ? "" : "none" }}
-          >
-            <img alt="movie-poster" src={screen3} className="mainscreen-bg" />
-          </div>
-        ) : activeMovie === 4 ? (
-          <div
-            id="slide-4"
-            style={{ display: activeMovie === 4 ? "" : "none" }}
-          >
-            <img alt="movie-poster" src={screen4} className="mainscreen-bg" />
-          </div>
-        ) : (
-          <div
-            id="slide-5"
-            style={{ display: activeMovie === 5 ? "" : "none" }}
-          >
-            <img alt="movie-poster" src={screen5} className="mainscreen-bg" />
-          </div>
-        )}
+        <div
+          id="slide-1"
+          className={`fade-in-out ${activeMovie === 1 ? "active" : ""}`}
+        >
+          <img alt="movie-poster" src={movieBG} className="mainscreen-bg" />
+        </div>
+        <div
+          id="slide-2"
+          className={`fade-in-out ${activeMovie === 2 ? "active" : ""}`}
+        >
+          <img alt="movie-poster" src={screen2} className="mainscreen-bg" />
+        </div>
+        <div
+          id="slide-3"
+          className={`fade-in-out ${activeMovie === 3 ? "active" : ""}`}
+        >
+          <img alt="movie-poster" src={screen3} className="mainscreen-bg" />
+        </div>
+        <div
+          id="slide-4"
+          className={`fade-in-out ${activeMovie === 4 ? "active" : ""}`}
+        >
+          <img alt="movie-poster" src={screen4} className="mainscreen-bg" />
+        </div>
+        <div
+          id="slide-5"
+          className={`fade-in-out ${activeMovie === 5 ? "active" : ""}`}
+        >
+          <img alt="movie-poster" src={screen5} className="mainscreen-bg" />
+        </div>
       </div>
       <div className="movie-container">
         <div className="left-side">
@@ -146,7 +138,11 @@ useEffect(()=> {
             )}
           </div>
           <div className="booking">
-            <Link style={{color: "var(--black)"}} className="book-now-btn" tabIndex={0} to={`/book/${activeImdbId}?time=17:00&type=IMAX_2D&date=${todayNoYear}`}>
+            <Link
+              className="book-now-btn"
+              tabIndex={0}
+              to={`/book/${activeImdbId}?time=17:00&type=IMAX_2D&date=${todayNoYear}`}
+            >
               Book Now
             </Link>
             <div className="book-now-info">

@@ -121,7 +121,7 @@ export default function BookingPage() {
       <img
         alt="Stars in the dark sky"
         src={stars}
-        className="schedule-image"
+        className="cover-image"
         style={{ height: "50vh" }}
       />
 
