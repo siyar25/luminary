@@ -6,6 +6,7 @@ import stars from "../../assets/stars.png";
 import Seat from "../../Components/Seat/Seat";
 import "../HomePage/ComingMovies/ComingMovies.css";
 import Loading from "../../Components/Loading/Loading";
+import useAuth from "../../Hooks/useAuth.js";
 
 export default function BookingPage() {
   let { id } = useParams();
@@ -19,6 +20,8 @@ export default function BookingPage() {
   const [reservations, setReservations] = useState([]);
   const [reservedSeats, setReservedSeats] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const { user, isLoggedIn } = useAuth();
+
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -196,6 +199,7 @@ export default function BookingPage() {
                       className="payment-email opening-week-search"
                       placeholder="E-mail..."
                       onChange={(e) => setEmail(e.target.value)}
+                      value={isLoggedIn ? user.email : ""}
                     />
                   </form>
                 ) : (
