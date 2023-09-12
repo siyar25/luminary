@@ -11,6 +11,14 @@ export default function LoginModal() {
     loginModal.close();
   }
 
+  function handleLogin(e) {
+
+  }
+
+  function handleRegistration(e) {
+    
+  }
+
   return (
     <dialog id="login-modal" className="login-modal">
       <div className="sign-in">
@@ -25,7 +33,7 @@ export default function LoginModal() {
         </div>
         <div>or use your account</div>
         <div className="sign-in-main">
-          <form className="sign-in-form">
+          <form className="sign-in-form" onSubmit={handleLogin}>
             <input type="email" name="email" id="email" placeholder="Email" />
             <input
               type="password"
@@ -52,10 +60,15 @@ export default function LoginModal() {
         <div className="login-modal-close" onClick={() => closeModal()}>
           X
         </div>
-        <div className="login-modal-back" onClick={() => setRegistrationActive(false)}>{"<<"}</div>
+        <div
+          className="login-modal-back"
+          onClick={() => setRegistrationActive(false)}
+        >
+          {"<<"}
+        </div>
         <div className="title">Registration</div>
         <div className="form">
-          <form>
+          <form onSubmit={handleRegistration}>
             <input
               type="text"
               name="firstname"
@@ -68,8 +81,20 @@ export default function LoginModal() {
               id="lastname"
               placeholder="Last name*"
             />
-            <input type="email" name="reg-email" id="reg-email" placeholder="Email*" />
-            <input type="text" name="birthday" id="birthday" placeholder="Birthday*" onFocus={(e) => e.target.type = 'date'} onBlur={(e) => e.target.type = 'text'}/>
+            <input
+              type="email"
+              name="reg-email"
+              id="reg-email"
+              placeholder="Email*"
+            />
+            <input
+              type="text"
+              name="birthday"
+              id="birthday"
+              placeholder="Birthday*"
+              onFocus={(e) => (e.target.type = "date")}
+              onBlur={(e) => (e.target.type = "text")}
+            />
             <input
               type="password"
               name="reg-password"
@@ -82,6 +107,9 @@ export default function LoginModal() {
               id="reg-password-again"
               placeholder="Password again*"
             />
+            <div className="register-button-container">
+              <button type="submit">Register</button>
+            </div>
           </form>
         </div>
       </div>

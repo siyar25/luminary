@@ -5,11 +5,12 @@ import ParagraphTwo from "../../assets/aboutus-2.jpeg";
 import ParagraphThree from "../../assets/aboutus-3.jpg";
 import ParagraphFour from "../../assets/aboutus-4.png";
 import LuminaryLogo from "../../assets/luminary_nobg.png";
+import AboutUsText from "../../assets/AboutUsShort.json"
 import Station from "../..//assets/station.jpg";
 
 export default function AboutUsPage() {
   return (
-    <div className="aboutus-page">
+    <div className="page-container">
       <img
         alt="Stars in the dark sky"
         src={AboutUsImage}
@@ -24,7 +25,7 @@ export default function AboutUsPage() {
       <div className="section-line" />
 
       <div className="aboutus-title">
-        Welcome to<br /> Luminary: Cinematic Elegance!
+        Welcome to<br/> Luminary: Cinematic Elegance!
       </div>
 
       <div className="aboutus-sections">

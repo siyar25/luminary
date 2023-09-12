@@ -1,12 +1,3 @@
-.aboutus-page {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 30% 4rem 1rem 4rem;
-  gap: 2rem;
-  animation: transition 500ms;
-}
-
 .aboutus-title {
   text-align: center;
   font-size: 4rem;
@@ -56,4 +47,9 @@
 .paragraph-luminary {
   max-width: 30vw;
   padding: 2rem;
+}
+
+.aboutus-title,
+.aboutus-sections {
+  /* white-space: pre-line; */
 }

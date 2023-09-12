@@ -32,8 +32,18 @@
   opacity: 0;
   transition: opacity 500ms ease-in-out;
 }
+
 .fade-in-out.active {
   opacity: 1;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 30% 4rem 1rem 4rem;
+  gap: 2rem;
+  animation: transition 500ms;
 }
 
 .social-app {
@@ -217,6 +227,10 @@
 .movie-top-info-imdb:visited,
 .movie-top-info-imdb:link {
   color: rgb(12, 11, 0);
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 

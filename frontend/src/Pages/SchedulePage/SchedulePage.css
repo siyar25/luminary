@@ -1,12 +1,3 @@
-.schedule-page {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 30% 4rem 1rem 4rem;
-  gap: 2rem;
-  animation: transition 500ms;
-}
-
 .schedule-list {
   display: flex;
   flex-direction: column;

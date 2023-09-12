@@ -76,13 +76,6 @@
   text-align: center;
 }
 
-/* .movie-bottom-screening:hover {
-  transition: 250ms;
-  background-color: var(--black);
-  color: var(--vivid-gold);
-  border: 1px solid var(--vivid-gold);
-} */
-
 .movie-page a:link,
 .movie-page a:visited,
 .movie-page a:active {

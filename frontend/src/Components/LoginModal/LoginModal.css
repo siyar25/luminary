@@ -182,6 +182,34 @@
   visibility: hidden;
 }
 
+.register-button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.registration button {
+  width: 25%;
+  align-self: flex-end;
+  padding: 0.75rem 2rem;
+  background-color: var(--black);
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 250ms;
+  border: solid 2px var(--black);
+  color: var(--vivid-gold);
+}
+
+.registration button:hover {
+  background-color: var(--vivid-gold);
+  color: var(--black);
+  transition: all 250ms;
+}
+
 .login-modal .registration.active {
   transition: 250ms;
   visibility: visible;
@@ -220,8 +248,9 @@
   color: var(--black);
   cursor: pointer;
   font-size: large;
+  font-weight: bold;
   height: fit-content;
-  border: 1px solid var(--black);
+  border: 1.5px solid var(--black);
   padding: 0.3rem;
   border-radius: 50%;
   width: 25px;
@@ -238,7 +267,6 @@
 .login-modal-close:hover {
   background-color: var(--black);
   color: var(--vivid-gold);
-  font-weight: bold;
   transition: 250ms;
 }
 
@@ -246,8 +274,9 @@
   color: var(--black);
   cursor: pointer;
   font-size: large;
+  font-weight: bold;
   height: fit-content;
-  border: 1px solid var(--black);
+  border: 1.5px solid var(--black);
   padding: 0.3rem;
   border-radius: 50%;
   width: 25px;
@@ -264,7 +293,6 @@
 .login-modal-back:hover {
   background-color: var(--black);
   color: var(--vivid-gold);
-  font-weight: bold;
   transition: 250ms;
 }
 
