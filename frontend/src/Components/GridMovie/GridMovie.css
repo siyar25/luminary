@@ -43,21 +43,6 @@
   opacity: 100%;
 }
 
-.movie-poster {
-  width: 220px;
-  aspect-ratio: 0.75;
-  margin-bottom: 1.5rem;
-  border-radius: 0.5rem;
-  object-fit: cover;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -ms-transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  transition: 250ms;
-  filter: none;
-}
-
 .movie-poster-container {
   position: relative;
 }
@@ -90,18 +75,6 @@
   font-weight: 500;
 }
 
-.movie-info {
-  align-self: flex-start;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
-  color: gray;
-  font-size: small;
-  justify-content: center;
-}
-
 .movie-genres {
   text-transform: uppercase;
 }
-

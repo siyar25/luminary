@@ -1,5 +1,5 @@
 .newsModal[open] {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
@@ -17,6 +17,7 @@
     transform: 250ms;
     padding: 3rem;
     color: var(--white);
+    animation: openNewsModal 500ms;
 }
 
 .newsModal::backdrop {
@@ -33,8 +34,9 @@
     color: var(--white);
     cursor: pointer;
     font-size: large;
+    font-weight: bold;
     height: fit-content;
-    border: 1px solid var(--vivid-gold);
+    border: 1.5px solid var(--vivid-gold);
     padding: 0.3rem;
     border-radius: 50%;
     width: 25px;
@@ -48,7 +50,6 @@
 .modal-close:hover {
     background-color: var(--vivid-gold);
     color: var(--black);
-    font-weight: bold;
     transition: 250ms;
 }
 
@@ -85,3 +86,13 @@
     gap: 1rem;
     line-height: 1.8rem;
 }
+
+@keyframes openNewsModal {
+    0% {
+      scale: 0;
+    }
+  
+    100% {
+      scale: 1;
+    }
+  }

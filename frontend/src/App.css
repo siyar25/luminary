@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@300;400;700&display=swap");
 
 :root {
   --black: #111111;
@@ -7,7 +7,7 @@
   --pale-yellow: #fff3bd;
   --warm-gold: #ffe98a;
   --vivid-gold: #ffdf57;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: var(--black);
   color: var(--white);
 }
@@ -20,10 +20,226 @@
   background-color: var(--black);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: var(--vivid-gold);
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--pale-yellow);
+}
+
+.fade-in-out {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.fade-in-out.active {
+  opacity: 1;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 30% 4rem 1rem 4rem;
+  gap: 2rem;
+  animation: transition 500ms;
+}
+
+.social-app {
+  filter: invert(1) brightness(50%);
+  height: 35px;
+  width: 35px;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.social-app:hover {
+  transition: 250ms;
+  filter: invert(1) brightness(100%);
+}
+
+.cover-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 0.5)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtitle-text {
+  text-transform: uppercase;
+  font-size: larger;
+  position: relative;
+  font-weight: 600;
+}
+
+.subtitle-text:before {
+  content: "";
+  position: absolute;
+  background-color: var(--vivid-gold);
+  left: 50%;
+  top: -20px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.section-line {
+  background: linear-gradient(0.25turn, var(--vivid-gold), transparent);
+  height: 1px;
+  margin-bottom: 1rem;
+}
+
+.opening-week-search {
+  width: 30%;
+  height: max-content;
+  background-color: rgba(0,0,0,0.1);
+  border: 1px solid var(--gray);
+  border-radius: 0.25rem;
+  color: var(--gray);
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  position: relative;
+}
+
+.opening-week-search:focus,
+.opening-week-search:focus-visible {
+  outline: 2px solid var(--vivid-gold);
+  background-color: rgb(40, 40, 40);
+}
+
+.coming-movies-types {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 0;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.movie-type {
+  background-color: var(--vivid-gold);
+  width: 10%;
+  padding: 0.7rem 0.75rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  color: var(--black);
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 250ms;
+  border: 2px solid var(--vivid-gold);
+}
+
+.movie-type:hover {
+  transition: 250ms;
+  background-color: var(--black);
+  color: var(--vivid-gold);
+  transform: scale(103%);
+}
+
+.movie-info {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  color: gray;
+  font-size: small;
+  justify-content: center;
+}
+
+.movie-poster {
+  width: 220px;
+  aspect-ratio: 0.75;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  transition: 250ms;
+  filter: none;
+}
+
+.movie-bottom-screening {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: var(--white);
+  color: var(--black);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 250ms;
+  border: 1px solid var(--white);
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-bottom-screening:hover {
+  transition: 250ms;
+  background-color: var(--black);
+  color: var(--vivid-gold);
+  border: 1px solid var(--vivid-gold);
+}
+
+.movie-bottom-row:nth-child(odd) {
+  background-color: rgb(28, 28, 28);
+}
+
+.movie-top-info-imdb {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background: linear-gradient(to right, #f3ce13, #f2e084, #f3ce13);
+  color: rgb(12, 11, 0);
+  font-weight: 600;
+  font-size: medium;
+  text-transform: none;
+  font-family: Impact, sans-serif;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+.movie-top-info-imdb:active,
+.movie-top-info-imdb:visited,
+.movie-top-info-imdb:link {
+  color: rgb(12, 11, 0);
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes transition {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

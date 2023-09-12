@@ -1,186 +1,191 @@
 .booking-page {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    padding: 15% 4rem 1rem 4rem;
-    gap: 2rem;
-  }
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 15% 4rem 1rem 4rem;
+  gap: 2rem;
+  animation: transition 500ms;
+}
 
 .booking-page-sections {
-    display: flex;
-    flex-direction: row;
-    gap: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
 }
 
 .booking-page-sections .left-section {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .left-section .top-photo {
-    margin-bottom: 1.5rem;
-    border-radius: 0.5rem;
-    object-fit: cover;
-    transition: 250ms;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  transition: 250ms;
 }
 
 .right-section {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .right-section .movie-title {
-    font-weight: bold;
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin-top: 5rem;
-    font-family: "Work Sans";
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 5rem;
+  font-family: "Work Sans";
 }
 
 .seats-section {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .seats-section .movie-screen {
-    width: 45vw;
-    height: 1px;
-    border: solid 5px #000;
-    border-color: #000 transparent transparent transparent;
-    box-shadow: 0px 1px 2px var(--vivid-gold), 
-    0px 0px 0px var(--vivid-gold), 
-    0px 4px 8px var(--vivid-gold), 
-    0px 8px 16px var(--vivid-gold);
+  width: 45vw;
+  height: 1px;
+  border: solid 5px #000;
+  border-color: #000 transparent transparent transparent;
+  box-shadow: 0px 1px 2px var(--vivid-gold), 0px 0px 0px var(--vivid-gold),
+    0px 4px 8px var(--vivid-gold), 0px 8px 16px var(--vivid-gold);
 }
 
 .right-bottom-bottom-section {
-    display: flex;
-    flex-direction: row;
-    gap: 20%;
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
 }
 
 .date-section {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .date {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .date-section-text {
-    font-size: x-large;
-    color: var(--gray);
+  font-size: x-large;
+  color: var(--gray);
 }
 
 .date-block {
-    padding: 0.5rem 0.75rem;
-    border: 1px solid gray;
-    font-size: xx-large;
-    text-align: center;
-    font-weight: bold;
-    width: fit-content;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid gray;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold;
+  width: fit-content;
 }
 
 .seats {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    width: 45vw;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 45vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .reserved-seats {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    font-family: "Work Sans";
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Work Sans";
 }
 
 .reserved-seat {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.75rem 1rem;
-    border: 1px solid var(--vivid-gold);
-    font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--vivid-gold);
+  font-size: x-large;
 }
 
 .seat-info {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 .seat-cancel {
-   transition: 250ms;
-   filter: brightness(75%);
-   cursor: pointer;
+  transition: 250ms;
+  filter: brightness(75%);
+  cursor: pointer;
 }
 
 .seat-cancel:hover {
-    transition: 250ms;
-    filter: none;
+  transition: 250ms;
+  filter: none;
 }
 
 .seats-total {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: larger;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: larger;
+  align-items: center;
 }
 
 .total-text {
-    color: var(--gray);
+  color: var(--gray);
 }
 
 .total-price {
-    font-weight: bold;
-    font-size: x-large;
+  font-weight: bold;
+  font-size: x-large;
 }
 
 .seats-payment {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 2rem;
-    font-size: large;
-    font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+  font-size: large;
+  font-weight: bold;
 }
 
 .payment-cancel {
-    background-color: brown;
+  background-color: brown;
 }
 
 .payment-pay {
-    background-color: green;
+  background-color: green;
 }
 
 .payment-btn {
-    padding: 1rem 1.5rem;
-    border-radius: 12px;
-    cursor: pointer;
-    filter: brightness(85%);
-    transition: 250ms;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  filter: brightness(85%);
+  transition: 250ms;
 }
 
 .payment-btn:hover {
-    transition: 250ms;
-    filter: brightness(100%);
+  transition: 250ms;
+  filter: brightness(100%);
 }
 
 .payment-email {
-    width: 100%;
+  width: 100%;
 }
 
 .payment-final {
-    background-color: var(--vivid-gold);
-    color: var(--black);
+  background-color: var(--vivid-gold);
+  color: var(--black);
+}
+
+.movie-bottom-screening:hover {
+  transition: 250ms;
+  background-color: var(--black);
+  color: var(--vivid-gold);
+  border: 1px solid var(--vivid-gold);
 }

@@ -20,11 +20,11 @@ export default function NewsPage() {
   };
 
   return (
-    <div className="news-page">
+    <div className="page-container">
       <img
         alt="Cinema press conference"
         src={NewsImage}
-        className="schedule-image"
+        className="cover-image"
       />
 
       <div className="subtitle">

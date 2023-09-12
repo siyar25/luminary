@@ -5,11 +5,11 @@ import movies from "../../assets/movies.json";
 
 export default function SchedulePage() {
   return (
-    <div className="schedule-page">
+    <div className="page-container">
       <img
         alt="People watching cinema screen"
         src={scheduleImg}
-        className="schedule-image"
+        className="cover-image"
       />
 
       <div className="subtitle">
