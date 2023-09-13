@@ -22,12 +22,15 @@ export default function BookingPage() {
   const [isLoading, setIsLoading] = useState(true);
   const { user, isLoggedIn } = useAuth();
 
-
   useEffect(() => {
     window.scrollTo(0, 0);
 
     fetchData();
   }, [pathname]);
+
+  useEffect(() => {
+    if (isLoggedIn) setEmail(user.email);
+  }, [isLoggedIn])
 
   function findMovie() {
     let findMovie = movies.comingSoon.find((movie) => movie.imdbID === id);
@@ -199,7 +202,7 @@ export default function BookingPage() {
                       className="payment-email opening-week-search"
                       placeholder="E-mail..."
                       onChange={(e) => setEmail(e.target.value)}
-                      value={isLoggedIn ? user.email : ""}
+                      value={isLoggedIn ? user?.email : null}
                     />
                   </form>
                 ) : (
